@@ -1,8 +1,8 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
+    "encoding/json"
+    "fmt"
 	"net/http"
     "math/rand"
     "time"
@@ -62,7 +62,7 @@ func getPathHandler(w http.ResponseWriter, r *http.Request) {
 // /results
 func inputHandler(w http.ResponseWriter, r *http.Request) {
     //Blocking vs non-blocking?
-    //time.Sleep(30 * time.Second)
+    time.Sleep(10 * time.Second)
 
     //Replace rand n with path
     my_num = rand.Intn(100)
