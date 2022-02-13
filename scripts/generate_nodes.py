@@ -2,6 +2,10 @@ import requests
 import csv
 import re
 
+CITY_COL = 0
+ID_COL = 1
+POP_COL = 2
+
 def write_to_csv(cities, csv_name):
     with open(csv_name, 'w', newline='') as csv_file:
         writer = csv.writer(csv_file, delimiter=',')
@@ -24,7 +28,7 @@ def geocode_addresses(cities):
 def clean_cities(cities):
     for c in cities:
         # get elements of rough string
-        split_name = re.split("-|, | Metro Area", c['city'])
+        split_name = re.split("--|, ", c['city'])
         city = split_name[0]
         state = ""
         for s in split_name:
@@ -36,7 +40,7 @@ def clean_cities(cities):
 
 # Return w/ Name, ID, Population, and blank Lat/Lng
 def city_factory(row):
-    return {"city": row[0], "id": row[2], 'population': row[3], 'lat': 0.0, 'lng': 0.0}
+    return {"city": row[CITY_COL], "id": row[ID_COL], 'population': row[POP_COL], 'lat': 0.0, 'lng': 0.0}
 
 # get metros from csv
 def get_cities_list(csv_name):
