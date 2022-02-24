@@ -1,6 +1,11 @@
 import csv
 
 RADIUS = 0.904 # Roughly 100 km in degrees
+LOW_DENSITY_RADIUS = 1.356 # Less than 50 / km^2
+VERY_LOW_DENSITY_RADIUS = 1.808 # Less than 10 / km^2
+
+LOW_DENSITY_STATES = ['WA', 'KY', 'TX', 'WI', 'LA', 'AL', 'MO', 'WV', 'MN', 'VT', 'MS', 'AZ', 'AR', 'OK', 'IA', 'CO']
+VERY_LOW_DENSITY_STATES = ['ME', 'OR', 'UT', 'KS', 'NV', 'NE', 'ID', 'NM', 'SD', 'ND', 'MT', 'WY', 'AK']
 
 # Write output to csv
 def write_to_csv(edges, csv_name):
@@ -14,9 +19,17 @@ def edge_factory(city_a, city_b):
     distance = ((city_a['lat'] - city_b['lat'])**2 + (city_a['lng'] - city_b['lng'])**2)**0.5
     return {'start': city_a['city'], 'end': city_b['city'], 'distance': distance}
 
+def get_radius_type(city_a, city_b):
+    if city_a['city'][-2:] in VERY_LOW_DENSITY_STATES or city_b['city'][-2:] in VERY_LOW_DENSITY_STATES:
+        return VERY_LOW_DENSITY_RADIUS
+    elif city_a['city'][-2:] in LOW_DENSITY_STATES or city_b['city'][-2:] in LOW_DENSITY_STATES:
+        return LOW_DENSITY_RADIUS
+    else:
+        return RADIUS
+
 # Determine if points are within a certain distance of each other
 def within_circle(city_a, city_b):
-    return (city_a['lat'] - city_b['lat'])**2 + (city_a['lng'] - city_b['lng'])**2 <= RADIUS**2
+    return (city_a['lat'] - city_b['lat'])**2 + (city_a['lng'] - city_b['lng'])**2 <= get_radius_type(city_a, city_b)**2
 
 # Calculate edges and make list
 def generate_edges(cities):
@@ -37,7 +50,7 @@ def city_factory(row):
 def get_cities_list(csv_name):
     # read cities
     cities = []
-    with open(csv_name, newline='') as csv_file:
+    with open(csv_name, newline='', encoding='ISO-8859-1') as csv_file:
         reader = csv.reader(csv_file, delimiter=',')
         for row in reader:
             cities.append(city_factory(row))
