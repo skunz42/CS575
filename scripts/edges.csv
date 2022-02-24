@@ -22,6 +22,8 @@
 "Huron, SD","Aberdeen, SD",1.1286957652529608
 "Aberdeen, SD","Jamestown, ND",1.4680559831968365
 "Jamestown, ND","Aberdeen, SD",1.4680559831968365
+"Aberdeen, SD","Mitchell, SD",1.815722455498107
+"Mitchell, SD","Aberdeen, SD",1.815722455498107
 "Aberdeen, SD","Watertown, SD",1.4897569977012852
 "Watertown, SD","Aberdeen, SD",1.4897569977012852
 "Aberdeen, WA","Astoria, OR",0.786295370074123
@@ -36,8 +38,6 @@
 "Olympia, WA","Aberdeen, WA",0.9265123595506107
 "Aberdeen, WA","Port Angeles, WA",1.2058638737436191
 "Port Angeles, WA","Aberdeen, WA",1.2058638737436191
-"Aberdeen, WA","St. Helens, OR",1.5017665330204077
-"St. Helens, OR","Aberdeen, WA",1.5017665330204077
 "Aberdeen, WA","Sequim, WA",1.3136734374265209
 "Sequim, WA","Aberdeen, WA",1.3136734374265209
 "Aberdeen, WA","Shelton, WA",0.7487040358512698
@@ -198,6 +198,8 @@
 "Carlsbad, NM","Alamogordo, NM",1.7966949658191984
 "Alamogordo, NM","Chaparral, NM",0.9715603121782938
 "Chaparral, NM","Alamogordo, NM",0.9715603121782938
+"Alamogordo, NM","Deming, NM",1.9058961660069413
+"Deming, NM","Alamogordo, NM",1.9058961660069413
 "Alamogordo, NM","El Paso, TX",1.2560706258009469
 "El Paso, TX","Alamogordo, NM",1.2560706258009469
 "Alamogordo, NM","Las Cruces, NM",1.009565241329126
@@ -218,12 +220,8 @@
 "Thomasville, GA","Albany, GA",0.7653796321434159
 "Albany, GA","Tifton, GA",0.6592463497813038
 "Tifton, GA","Albany, GA",0.6592463497813038
-"Albany, OR","Astoria, OR",1.7155667635507743
-"Astoria, OR","Albany, OR",1.7155667635507743
 "Albany, OR","Canby, OR",0.7514853492251311
 "Canby, OR","Albany, OR",0.7514853492251311
-"Albany, OR","Coos Bay, OR",1.6860911037366506
-"Coos Bay, OR","Albany, OR",1.6860911037366506
 "Albany, OR","Corvallis, OR",0.1709422855819622
 "Corvallis, OR","Albany, OR",0.1709422855819622
 "Albany, OR","Cottage Grove, OR",0.839254643835781
@@ -238,8 +236,6 @@
 "Lebanon, OR","Albany, OR",0.22362581805327444
 "Albany, OR","Lincoln City, OR",0.9564253543795351
 "Lincoln City, OR","Albany, OR",0.9564253543795351
-"Albany, OR","Longview, WA",1.5194814646122354
-"Longview, WA","Albany, OR",1.5194814646122354
 "Albany, OR","McMinnville, OR",0.5809501831482968
 "McMinnville, OR","Albany, OR",0.5809501831482968
 "Albany, OR","Monmouth, OR",0.24920751874691816
@@ -250,8 +246,6 @@
 "Newport, OR","Albany, OR",0.9498454241085703
 "Albany, OR","Portland, OR",0.9770647639742753
 "Portland, OR","Albany, OR",0.9770647639742753
-"Albany, OR","Roseburg, OR",1.4439257696294132
-"Roseburg, OR","Albany, OR",1.4439257696294132
 "Albany, OR","St. Helens, OR",1.2649209474508811
 "St. Helens, OR","Albany, OR",1.2649209474508811
 "Albany, OR","Salem, OR",0.3045694188523062
@@ -422,6 +416,8 @@
 "St. Cloud, MN","Alexandria, MN",1.2127703217427837
 "Alexandria, MN","Wahpeton, ND",1.2937698669005846
 "Wahpeton, ND","Alexandria, MN",1.2937698669005846
+"Alexandria, MN","Watertown, SD",2.000856505524576
+"Watertown, SD","Alexandria, MN",2.000856505524576
 "Alexandria, MN","Willmar, MN",0.829601988546325
 "Willmar, MN","Alexandria, MN",0.829601988546325
 "Alice, TX","Beeville, TX",0.7237357597907985
@@ -578,6 +574,8 @@
 "Pampa, TX","Amarillo, TX",0.9333880001371109
 "Amarillo, TX","Plainview, TX",1.0185256310962265
 "Plainview, TX","Amarillo, TX",1.0185256310962265
+"Amarillo, TX","Portales, NM",1.8203210836827874
+"Portales, NM","Amarillo, TX",1.8203210836827874
 "Americus, GA","Columbus, GA",0.8496962097126136
 "Columbus, GA","Americus, GA",0.8496962097126136
 "Americus, GA","Cordele, GA",0.4611479160746222
@@ -694,6 +692,8 @@
 "Spartanburg, SC","Anderson, SC",0.8433655644499447
 "Anderson, SC","Toccoa, GA",0.6880713411412945
 "Toccoa, GA","Anderson, SC",0.6880713411412945
+"Andrews, TX","Artesia, NM",1.9237493036515945
+"Artesia, NM","Andrews, TX",1.9237493036515945
 "Andrews, TX","Big Spring, TX",1.069786252155038
 "Big Spring, TX","Andrews, TX",1.069786252155038
 "Andrews, TX","Carlsbad, NM",1.6853082436159943
@@ -712,6 +712,8 @@
 "Odessa, TX","Andrews, TX",0.5001455981011856
 "Andrews, TX","Pecos, TX",1.302277354944046
 "Pecos, TX","Andrews, TX",1.302277354944046
+"Andrews, TX","Portales, NM",2.0268680257480787
+"Portales, NM","Andrews, TX",2.0268680257480787
 "Angola, IN","Auburn, IN",0.27359929312775316
 "Auburn, IN","Angola, IN",0.27359929312775316
 "Angola, IN","Battle Creek, MI",0.7053380609325272
@@ -926,8 +928,6 @@
 "Eureka, CA","Arcata-McKinleyville, CA",0.15118754776764512
 "Arcata-McKinleyville, CA","Fortuna, CA",0.3491789021404533
 "Fortuna, CA","Arcata-McKinleyville, CA",0.3491789021404533
-"Arcata-McKinleyville, CA","Grants Pass, OR",1.6897654701762674
-"Grants Pass, OR","Arcata-McKinleyville, CA",1.6897654701762674
 "Archer Lodge, NC","Butner, NC",0.5786774576566727
 "Butner, NC","Archer Lodge, NC",0.5786774576566727
 "Archer Lodge, NC","Dunn, NC",0.45216761692979474
@@ -1060,10 +1060,14 @@
 "Enid, OK","Arkansas City, KS",1.0667311637427925
 "Arkansas City, KS","Hutchinson, KS",1.3420780451970837
 "Hutchinson, KS","Arkansas City, KS",1.3420780451970837
+"Arkansas City, KS","Junction City, KS",1.983366482851805
+"Junction City, KS","Arkansas City, KS",1.983366482851805
 "Arkansas City, KS","McPherson, KS",1.4554147612622454
 "McPherson, KS","Arkansas City, KS",1.4554147612622454
 "Arkansas City, KS","Newton, KS",1.0433528396951977
 "Newton, KS","Arkansas City, KS",1.0433528396951977
+"Arkansas City, KS","Norman, OK",1.8795430606931915
+"Norman, OK","Arkansas City, KS",1.8795430606931915
 "Arkansas City, KS","Oklahoma City, OK",1.6556085896430848
 "Oklahoma City, OK","Arkansas City, KS",1.6556085896430848
 "Arkansas City, KS","Okmulgee, OK",1.7837050860498025
@@ -1072,6 +1076,8 @@
 "Parsons, KS","Arkansas City, KS",1.8031463968574215
 "Arkansas City, KS","Ponca City, OK",0.35460317609972625
 "Ponca City, OK","Arkansas City, KS",0.35460317609972625
+"Arkansas City, KS","Salina, KS",1.8737101452732627
+"Salina, KS","Arkansas City, KS",1.8737101452732627
 "Arkansas City, KS","Shawnee, OK",1.726962079056731
 "Shawnee, OK","Arkansas City, KS",1.726962079056731
 "Arkansas City, KS","Stillwater, OK",0.9394365773696579
@@ -1120,6 +1126,8 @@
 "Solvang, CA","Arroyo Grande, CA",0.6828379703121096
 "Artesia, NM","Carlsbad, NM",0.45656661956390576
 "Carlsbad, NM","Artesia, NM",0.45656661956390576
+"Artesia, NM","Clovis, NM",1.9650023380393316
+"Clovis, NM","Artesia, NM",1.9650023380393316
 "Artesia, NM","Hobbs, NM",1.2775197145249821
 "Hobbs, NM","Artesia, NM",1.2775197145249821
 "Artesia, NM","Lovington, NM",1.0538393981058025
@@ -1240,42 +1248,24 @@
 "Meadville, PA","Ashtabula, OH",0.6836013371110744
 "Ashtabula, OH","Youngstown, OH",0.8027539032605115
 "Youngstown, OH","Ashtabula, OH",0.8027539032605115
-"Astoria, OR","Canby, OR",1.4689486738821305
-"Canby, OR","Astoria, OR",1.4689486738821305
 "Astoria, OR","Centralia, WA",1.032866123851488
 "Centralia, WA","Astoria, OR",1.032866123851488
-"Astoria, OR","Corvallis, OR",1.7219703427179351
-"Corvallis, OR","Astoria, OR",1.7219703427179351
-"Astoria, OR","Dallas, OR",1.3706896578000383
-"Dallas, OR","Astoria, OR",1.3706896578000383
 "Astoria, OR","Lincoln City, OR",1.2730084113233568
 "Lincoln City, OR","Astoria, OR",1.2730084113233568
 "Astoria, OR","Longview, WA",0.8844139972320788
 "Longview, WA","Astoria, OR",0.8844139972320788
 "Astoria, OR","McMinnville, OR",1.1681241189616745
 "McMinnville, OR","Astoria, OR",1.1681241189616745
-"Astoria, OR","Monmouth, OR",1.4680628229064578
-"Monmouth, OR","Astoria, OR",1.4680628229064578
 "Astoria, OR","Newberg, OR",1.2360907569430264
 "Newberg, OR","Astoria, OR",1.2360907569430264
-"Astoria, OR","Newport, OR",1.5734756345428496
-"Newport, OR","Astoria, OR",1.5734756345428496
 "Astoria, OR","Olympia, WA",1.2688788311734105
 "Olympia, WA","Astoria, OR",1.2688788311734105
 "Astoria, OR","Portland, OR",1.3421483162452632
 "Portland, OR","Astoria, OR",1.3421483162452632
 "Astoria, OR","St. Helens, OR",1.0778683335640127
 "St. Helens, OR","Astoria, OR",1.0778683335640127
-"Astoria, OR","Salem, OR",1.4842973420780594
-"Salem, OR","Astoria, OR",1.4842973420780594
 "Astoria, OR","Shelton, WA",1.2555304194243586
 "Shelton, WA","Astoria, OR",1.2555304194243586
-"Astoria, OR","Stayton, OR",1.7335401144767708
-"Stayton, OR","Astoria, OR",1.7335401144767708
-"Astoria, OR","Woodburn, OR",1.430887565464194
-"Woodburn, OR","Astoria, OR",1.430887565464194
-"Astoria, OR","Yelm, WA",1.439091527457519
-"Yelm, WA","Astoria, OR",1.439091527457519
 "Atchison, KS","Beatrice, NE",1.7658936218243573
 "Beatrice, NE","Atchison, KS",1.7658936218243573
 "Atchison, KS","Emporia, KS",1.5623004497214952
@@ -1292,10 +1282,16 @@
 "Leavenworth, KS","Atchison, KS",0.3216358980275477
 "Atchison, KS","Lee's Summit, MO",0.9923769381137236
 "Lee's Summit, MO","Atchison, KS",0.9923769381137236
+"Atchison, KS","Lincoln, NE",2.0155072989200864
+"Lincoln, NE","Atchison, KS",2.0155072989200864
 "Atchison, KS","Manhattan, KS",1.4834605147761868
 "Manhattan, KS","Atchison, KS",1.4834605147761868
+"Atchison, KS","Marshall, MO",1.9821959943961218
+"Marshall, MO","Atchison, KS",1.9821959943961218
 "Atchison, KS","Maryville, MO",0.8270610802111464
 "Maryville, MO","Atchison, KS",0.8270610802111464
+"Atchison, KS","Omaha, NE",1.883738893265197
+"Omaha, NE","Atchison, KS",1.883738893265197
 "Atchison, KS","Ottawa, KS",0.9622754608219036
 "Ottawa, KS","Atchison, KS",0.9622754608219036
 "Atchison, KS","St. Joseph, MO",0.3413260466181492
@@ -1444,8 +1440,6 @@
 "North Adams, MA","Athol, MA",0.8876883698686299
 "Athol, MA","Rutland, VT",1.2558414454062572
 "Rutland, VT","Athol, MA",1.2558414454062572
-"Athol, MA","Sanford, ME",1.687498185391605
-"Sanford, ME","Athol, MA",1.687498185391605
 "Athol, MA","Springfield, MA",0.6074586202368134
 "Springfield, MA","Athol, MA",0.6074586202368134
 "Athol, MA","Willimantic, CT",0.8832676610178888
@@ -1570,6 +1564,8 @@
 "Dayton, NV","Auburn, CA",1.5283707491639749
 "Auburn, CA","Dixon, CA",0.8648998221759302
 "Dixon, CA","Auburn, CA",0.8648998221759302
+"Auburn, CA","Fernley, NV",1.9633082837394906
+"Fernley, NV","Auburn, CA",1.9633082837394906
 "Auburn, CA","Galt, CA",0.6804237412818546
 "Galt, CA","Auburn, CA",0.6804237412818546
 "Auburn, CA","Gardnerville Ranchos, NV",1.338560621152461
@@ -1594,18 +1590,12 @@
 "Yuba City, CA","Auburn, CA",0.5937651286493502
 "Augusta, ME","Bangor, ME",1.1157311217313612
 "Bangor, ME","Augusta, ME",1.1157311217313612
-"Augusta, ME","Berlin, NH",1.4085874218521355
-"Berlin, NH","Augusta, ME",1.4085874218521355
 "Augusta, ME","Brunswick, ME",0.44692979605306765
 "Brunswick, ME","Augusta, ME",0.44692979605306765
-"Augusta, ME","Dover, NH",1.5716856574391977
-"Dover, NH","Augusta, ME",1.5716856574391977
 "Augusta, ME","Lewiston, ME",0.4936051233526839
 "Lewiston, ME","Augusta, ME",0.4936051233526839
 "Augusta, ME","Portland, ME",0.8154595485369205
 "Portland, ME","Augusta, ME",0.8154595485369205
-"Augusta, ME","Portsmouth, NH",1.5962043222909044
-"Portsmouth, NH","Augusta, ME",1.5962043222909044
 "Augusta, ME","Sanford, ME",1.3294718725870422
 "Sanford, ME","Augusta, ME",1.3294718725870422
 "Augusta, ME","Waterville, ME",0.2758562618466285
@@ -1772,10 +1762,6 @@
 "Westminster, MD","Baltimore, MD",0.4768526692805656
 "Baltimore, MD","York, PA",0.6836978894950551
 "York, PA","Baltimore, MD",0.6836978894950551
-"Bangor, ME","Brunswick, ME",1.4898945120377014
-"Brunswick, ME","Bangor, ME",1.4898945120377014
-"Bangor, ME","Lewiston, ME",1.6093100470077066
-"Lewiston, ME","Bangor, ME",1.6093100470077066
 "Bangor, ME","Waterville, ME",0.8958566307171858
 "Waterville, ME","Bangor, ME",0.8958566307171858
 "Baraboo, WI","Beaver Dam, WI",0.9141940997949992
@@ -1900,8 +1886,12 @@
 "Miami, OK","Bartlesville, OK",1.1087907267379444
 "Bartlesville, OK","Muskogee, OK",1.1698745205363414
 "Muskogee, OK","Bartlesville, OK",1.1698745205363414
+"Bartlesville, OK","Newton, KS",1.890318307508007
+"Newton, KS","Bartlesville, OK",1.890318307508007
 "Bartlesville, OK","Okmulgee, OK",1.1234933168470602
 "Okmulgee, OK","Bartlesville, OK",1.1234933168470602
+"Bartlesville, OK","Ottawa, KS",1.9930004452081556
+"Ottawa, KS","Bartlesville, OK",1.9930004452081556
 "Bartlesville, OK","Parsons, KS",0.9337336528689596
 "Parsons, KS","Bartlesville, OK",0.9337336528689596
 "Bartlesville, OK","Pittsburg, KS",1.436812303851849
@@ -2066,6 +2056,8 @@
 "Victoria, TX","Bay City, TX",1.049201117994048
 "Beatrice, NE","Columbus, NE",1.32217720325228
 "Columbus, NE","Beatrice, NE",1.32217720325228
+"Beatrice, NE","Emporia, KS",1.944844273971551
+"Emporia, KS","Beatrice, NE",1.944844273971551
 "Beatrice, NE","Fremont, NE",1.1947595393635004
 "Fremont, NE","Beatrice, NE",1.1947595393635004
 "Beatrice, NE","Grand Island, NE",1.723346834157311
@@ -2074,12 +2066,20 @@
 "Hastings, NE","Beatrice, NE",1.6757521698927214
 "Beatrice, NE","Junction City, KS",1.2403787487698947
 "Junction City, KS","Beatrice, NE",1.2403787487698947
+"Beatrice, NE","Lawrence, KS",1.9888020701165219
+"Lawrence, KS","Beatrice, NE",1.9888020701165219
 "Beatrice, NE","Lincoln, NE",0.5492316906370572
 "Lincoln, NE","Beatrice, NE",0.5492316906370572
 "Beatrice, NE","Manhattan, KS",1.1027873376585082
 "Manhattan, KS","Beatrice, NE",1.1027873376585082
+"Beatrice, NE","Maryville, MO",1.8763551733080635
+"Maryville, MO","Beatrice, NE",1.8763551733080635
+"Beatrice, NE","Norfolk, NE",1.887351938272285
+"Norfolk, NE","Beatrice, NE",1.887351938272285
 "Beatrice, NE","Omaha, NE",1.2811209782061819
 "Omaha, NE","Beatrice, NE",1.2811209782061819
+"Beatrice, NE","St. Joseph, MO",1.9561933277924772
+"St. Joseph, MO","Beatrice, NE",1.9561933277924772
 "Beatrice, NE","Salina, KS",1.6658212481536128
 "Salina, KS","Beatrice, NE",1.6658212481536128
 "Beatrice, NE","Topeka, KS",1.6243425089555226
@@ -2372,22 +2372,12 @@
 "Woodstock, IL","Beloit, WI",0.6204182673809627
 "Bemidji, MN","Brainerd, MN",1.3094284264899614
 "Brainerd, MN","Bemidji, MN",1.3094284264899614
-"Bend, OR","Cottage Grove, OR",1.7684387331485185
-"Cottage Grove, OR","Bend, OR",1.7684387331485185
-"Bend, OR","Eugene, OR",1.7731875983380823
-"Eugene, OR","Bend, OR",1.7731875983380823
-"Bend, OR","Hood River, OR",1.6625479212642171
-"Hood River, OR","Bend, OR",1.6625479212642171
-"Bend, OR","Lebanon, OR",1.6622037943044317
-"Lebanon, OR","Bend, OR",1.6622037943044317
+"Bemidji, MN","Fargo, ND",1.9936665029537923
+"Fargo, ND","Bemidji, MN",1.9936665029537923
 "Bend, OR","Prineville, OR",0.5314978853203354
 "Prineville, OR","Bend, OR",0.5314978853203354
 "Bend, OR","Redmond, OR",0.2560707576042011
 "Redmond, OR","Bend, OR",0.2560707576042011
-"Bend, OR","Stayton, OR",1.6558865749802691
-"Stayton, OR","Bend, OR",1.6558865749802691
-"Bend, OR","The Dalles, OR",1.5493580853049889
-"The Dalles, OR","Bend, OR",1.5493580853049889
 "Bennettsville, SC","Florence, SC",0.42959685846148776
 "Florence, SC","Bennettsville, SC",0.42959685846148776
 "Bennettsville, SC","Hartsville, SC",0.4582185977238402
@@ -2492,8 +2482,6 @@
 "Portland, ME","Berlin, NH",1.2279185189986894
 "Berlin, NH","Sanford, ME",1.111361878507624
 "Sanford, ME","Berlin, NH",1.111361878507624
-"Berlin, NH","Waterville, ME",1.546975279763725
-"Waterville, ME","Berlin, NH",1.546975279763725
 "Big Bear City, CA","Desert Hot Springs, CA",0.44977753878998306
 "Desert Hot Springs, CA","Big Bear City, CA",0.44977753878998306
 "Big Bear City, CA","Hemet, CA",0.5261158511202538
@@ -2526,6 +2514,8 @@
 "Hobbs, NM","Big Spring, TX",1.708742315622779
 "Big Spring, TX","Lamesa, TX",0.6780917743934011
 "Lamesa, TX","Big Spring, TX",0.6780917743934011
+"Big Spring, TX","Lovington, NM",1.9942442556517248
+"Lovington, NM","Big Spring, TX",1.9942442556517248
 "Big Spring, TX","Midland, TX",0.6458409409444453
 "Midland, TX","Big Spring, TX",0.6458409409444453
 "Big Spring, TX","Odessa, TX",0.9817965958384585
@@ -2536,6 +2526,8 @@
 "Snyder, TX","Big Spring, TX",0.7300896893532939
 "Big Spring, TX","Sweetwater, TX",1.1031398498830591
 "Sweetwater, TX","Big Spring, TX",1.1031398498830591
+"Billings, MT","Sheridan, WY",1.8373858156631493
+"Sheridan, WY","Billings, MT",1.8373858156631493
 "Binghamton, NY","Cortland, NY",0.5694770192027062
 "Cortland, NY","Binghamton, NY",0.5694770192027062
 "Binghamton, NY","Elmira, NY",0.8876588051723173
@@ -2580,16 +2572,22 @@
 "Talladega, AL","Birmingham, AL",0.7143213381245507
 "Birmingham, AL","Tuscaloosa, AL",0.8157793706634054
 "Tuscaloosa, AL","Birmingham, AL",0.8157793706634054
+"Bismarck, ND","Dickinson, ND",2.0122490101625017
+"Dickinson, ND","Bismarck, ND",2.0122490101625017
 "Bismarck, ND","Minot, ND",1.5210839015978206
 "Minot, ND","Bismarck, ND",1.5210839015978206
 "Blackfoot, ID","Burley, ID",1.5884951452868665
 "Burley, ID","Blackfoot, ID",1.5884951452868665
+"Blackfoot, ID","Hailey, ID",1.9986772259671888
+"Hailey, ID","Blackfoot, ID",1.9986772259671888
 "Blackfoot, ID","Idaho Falls, ID",0.4287683557586564
 "Idaho Falls, ID","Blackfoot, ID",0.4287683557586564
 "Blackfoot, ID","Jackson, WY",1.6097434035584917
 "Jackson, WY","Blackfoot, ID",1.6097434035584917
 "Blackfoot, ID","Logan, UT",1.5392950751561292
 "Logan, UT","Blackfoot, ID",1.5392950751561292
+"Blackfoot, ID","Ogden, UT",2.00189005155126
+"Ogden, UT","Blackfoot, ID",2.00189005155126
 "Blackfoot, ID","Pocatello, ID",0.33113490000297297
 "Pocatello, ID","Blackfoot, ID",0.33113490000297297
 "Blackfoot, ID","Rexburg, ID",0.8502056841141363
@@ -2756,6 +2754,10 @@
 "Picayune, MS","Bogalusa, LA",0.32222363740111254
 "Bogalusa, LA","Slidell, LA",0.5210105344424422
 "Slidell, LA","Bogalusa, LA",0.5210105344424422
+"Boise City, ID","Hailey, ID",1.8789553497888094
+"Hailey, ID","Boise City, ID",1.8789553497888094
+"Boise City, ID","Jerome, ID",1.8960263179871473
+"Jerome, ID","Boise City, ID",1.8960263179871473
 "Boise City, ID","Kuna, ID",0.2577757040529917
 "Kuna, ID","Boise City, ID",0.2577757040529917
 "Boise City, ID","Mountain Home, ID",0.6903837931179734
@@ -2764,6 +2766,8 @@
 "Nampa, ID","Boise City, ID",0.37705037925990104
 "Boise City, ID","Ontario, OR",0.8783281016226404
 "Ontario, OR","Boise City, ID",0.8783281016226404
+"Boise City, ID","Twin Falls, ID",2.0191665464988064
+"Twin Falls, ID","Boise City, ID",2.0191665464988064
 "Bonita Springs, FL","Cape Coral, FL",0.3384216921239077
 "Cape Coral, FL","Bonita Springs, FL",0.3384216921239077
 "Bonita Springs, FL","Immokalee, FL",0.388895609257832
@@ -2818,8 +2822,6 @@
 "Nashua, NH","Boston, MA",0.571246886118445
 "Boston, MA","New Bedford, MA",0.7317631871719241
 "New Bedford, MA","Boston, MA",0.7317631871719241
-"Boston, MA","Portland, ME",1.5268825245250606
-"Portland, ME","Boston, MA",1.5268825245250606
 "Boston, MA","Portsmouth, NH",0.7667620784180511
 "Portsmouth, NH","Boston, MA",0.7667620784180511
 "Boston, MA","Providence, RI",0.6420303003752974
@@ -2856,6 +2858,8 @@
 "Woodland Park, CO","Boulder, CO",1.0459422749845912
 "Boulder City, NV","Bullhead City, AZ",0.8897046543657414
 "Bullhead City, AZ","Boulder City, NV",0.8897046543657414
+"Boulder City, NV","Hurricane, UT",1.958728111045511
+"Hurricane, UT","Boulder City, NV",1.958728111045511
 "Boulder City, NV","Kingman, AZ",1.1086186338863528
 "Kingman, AZ","Boulder City, NV",1.1086186338863528
 "Boulder City, NV","Lake Havasu City, AZ",1.58130279279459
@@ -2920,8 +2924,12 @@
 "Toledo, OH","Bowling Green, OH",0.30063474516433525
 "Bozeman, MT","Butte-Silver Bow, MT",1.523183041200247
 "Butte-Silver Bow, MT","Bozeman, MT",1.523183041200247
+"Bozeman, MT","Great Falls, MT",1.8483789392058936
+"Great Falls, MT","Bozeman, MT",1.8483789392058936
 "Bozeman, MT","Helena, MT",1.3438223250489918
 "Helena, MT","Bozeman, MT",1.3438223250489918
+"Bozeman, MT","Rexburg, ID",1.99938058348084
+"Rexburg, ID","Bozeman, MT",1.99938058348084
 "Bradford, PA","DuBois, PA",0.8431988114910551
 "DuBois, PA","Bradford, PA",0.8431988114910551
 "Bradford, PA","Dunkirk, NY",0.8671797935837708
@@ -3012,8 +3020,6 @@
 "Olympia, WA","Bremerton, WA",0.5881096687693479
 "Bremerton, WA","Port Angeles, WA",0.9760719002716941
 "Port Angeles, WA","Bremerton, WA",0.9760719002716941
-"Bremerton, WA","St. Helens, OR",1.710392352648966
-"St. Helens, OR","Bremerton, WA",1.710392352648966
 "Bremerton, WA","Seattle, WA",0.3005253508441644
 "Seattle, WA","Bremerton, WA",0.3005253508441644
 "Bremerton, WA","Sequim, WA",0.7011504937600894
@@ -3142,26 +3148,30 @@
 "Crescent City, CA","Brookings, OR",0.31494907286733603
 "Brookings, OR","Eureka, CA",1.258357272796565
 "Eureka, CA","Brookings, OR",1.258357272796565
-"Brookings, OR","Fortuna, CA",1.4632712446091776
-"Fortuna, CA","Brookings, OR",1.4632712446091776
 "Brookings, OR","Grants Pass, OR",1.040364493819348
 "Grants Pass, OR","Brookings, OR",1.040364493819348
-"Brookings, OR","Medford, OR",1.4392589935449145
-"Medford, OR","Brookings, OR",1.4392589935449145
-"Brookings, OR","Roseburg, OR",1.4939276053410449
-"Roseburg, OR","Brookings, OR",1.4939276053410449
 "Brookings, SD","Huron, SD",1.4165073219013495
 "Huron, SD","Brookings, SD",1.4165073219013495
 "Brookings, SD","Marshall, MN",1.0163211778271517
 "Marshall, MN","Brookings, SD",1.0163211778271517
 "Brookings, SD","Mitchell, SD",1.3726161207344334
 "Mitchell, SD","Brookings, SD",1.3726161207344334
+"Brookings, SD","Sioux City, IA",1.850310151866465
+"Sioux City, IA","Brookings, SD",1.850310151866465
 "Brookings, SD","Sioux Falls, SD",0.7684254354197197
 "Sioux Falls, SD","Brookings, SD",0.7684254354197197
+"Brookings, SD","Spencer, IA",2.025547946852906
+"Spencer, IA","Brookings, SD",2.025547946852906
+"Brookings, SD","Spirit Lake, IA",1.9148252806457362
+"Spirit Lake, IA","Brookings, SD",1.9148252806457362
 "Brookings, SD","Vermillion, SD",1.530063303527032
 "Vermillion, SD","Brookings, SD",1.530063303527032
+"Brookings, SD","Wahpeton, ND",1.962293414884753
+"Wahpeton, ND","Brookings, SD",1.962293414884753
 "Brookings, SD","Watertown, SD",0.6646133505279809
 "Watertown, SD","Brookings, SD",0.6646133505279809
+"Brookings, SD","Willmar, MN",1.9227981432276837
+"Willmar, MN","Brookings, SD",1.9227981432276837
 "Brookings, SD","Worthington, MN",1.3649520123798693
 "Worthington, MN","Brookings, SD",1.3649520123798693
 "Brookings, SD","Yankton, SD",1.5584511339147218
@@ -3208,16 +3218,10 @@
 "St. Simons, GA","Brunswick, GA",0.1064535189648493
 "Brunswick, GA","Waycross, GA",0.8650866686060911
 "Waycross, GA","Brunswick, GA",0.8650866686060911
-"Brunswick, ME","Concord, NH",1.7210654495689444
-"Concord, NH","Brunswick, ME",1.7210654495689444
 "Brunswick, ME","Dover, NH",1.158256469353806
 "Dover, NH","Brunswick, ME",1.158256469353806
-"Brunswick, ME","Laconia, NH",1.5503919947226117
-"Laconia, NH","Brunswick, ME",1.5503919947226117
 "Brunswick, ME","Lewiston, ME",0.31151017768283673
 "Lewiston, ME","Brunswick, ME",0.31151017768283673
-"Brunswick, ME","Manchester, NH",1.7575186523049708
-"Manchester, NH","Brunswick, ME",1.7575186523049708
 "Brunswick, ME","Portland, ME",0.38558393962920706
 "Portland, ME","Brunswick, ME",0.38558393962920706
 "Brunswick, ME","Portsmouth, NH",1.1657653968530723
@@ -3328,8 +3332,12 @@
 "Wichita Falls, TX","Burkburnett, TX",0.17824784570928037
 "Burley, ID","Hailey, ID",1.1159876412398082
 "Hailey, ID","Burley, ID",1.1159876412398082
+"Burley, ID","Idaho Falls, ID",1.995383776745683
+"Idaho Falls, ID","Burley, ID",1.995383776745683
 "Burley, ID","Jerome, ID",0.7467852052632215
 "Jerome, ID","Burley, ID",0.7467852052632215
+"Burley, ID","Mountain Home, ID",1.9915196199134249
+"Mountain Home, ID","Burley, ID",1.9915196199134249
 "Burley, ID","Pocatello, ID",1.38502691735578
 "Pocatello, ID","Burley, ID",1.38502691735578
 "Burley, ID","Twin Falls, ID",0.6766325503550664
@@ -3490,6 +3498,8 @@
 "Smithfield, NC","Butner, NC",0.7409324377430945
 "Butner, NC","Wendell, NC",0.5170718496495119
 "Wendell, NC","Butner, NC",0.5170718496495119
+"Butte-Silver Bow, MT","Great Falls, MT",1.9345616188945418
+"Great Falls, MT","Butte-Silver Bow, MT",1.9345616188945418
 "Butte-Silver Bow, MT","Helena, MT",0.7720076539128087
 "Helena, MT","Butte-Silver Bow, MT",0.7720076539128087
 "Butte-Silver Bow, MT","Missoula, MT",1.7132951848703721
@@ -3666,12 +3676,8 @@
 "Versailles, KY","Campbellsville, KY",0.9373768988512643
 "Campbellsville, KY","Winchester, KY",1.333272267468253
 "Winchester, KY","Campbellsville, KY",1.333272267468253
-"Canby, OR","Centralia, WA",1.4886133096610945
-"Centralia, WA","Canby, OR",1.4886133096610945
 "Canby, OR","Corvallis, OR",0.9006488661514901
 "Corvallis, OR","Canby, OR",0.9006488661514901
-"Canby, OR","Cottage Grove, OR",1.5116830594075779
-"Cottage Grove, OR","Canby, OR",1.5116830594075779
 "Canby, OR","Dallas, OR",0.7089766157638486
 "Dallas, OR","Canby, OR",0.7089766157638486
 "Canby, OR","Eugene, OR",1.275524753385824
@@ -3680,8 +3686,6 @@
 "Hood River, OR","Canby, OR",1.2647398896611102
 "Canby, OR","Lebanon, OR",0.756622601433511
 "Lebanon, OR","Canby, OR",0.756622601433511
-"Canby, OR","Lincoln City, OR",1.3646354019297753
-"Lincoln City, OR","Canby, OR",1.3646354019297753
 "Canby, OR","Longview, WA",0.9202446875696014
 "Longview, WA","Canby, OR",0.9202446875696014
 "Canby, OR","McMinnville, OR",0.5077163657003817
@@ -3690,10 +3694,6 @@
 "Monmouth, OR","Canby, OR",0.6828754882846241
 "Canby, OR","Newberg, OR",0.2837773629097516
 "Newberg, OR","Canby, OR",0.2837773629097516
-"Canby, OR","Newport, OR",1.5021530524550446
-"Newport, OR","Canby, OR",1.5021530524550446
-"Canby, OR","Olympia, WA",1.7875120442951087
-"Olympia, WA","Canby, OR",1.7875120442951087
 "Canby, OR","Portland, OR",0.24950724578661912
 "Portland, OR","Canby, OR",0.24950724578661912
 "Canby, OR","St. Helens, OR",0.6114068766378098
@@ -3702,12 +3702,8 @@
 "Salem, OR","Canby, OR",0.48051377711774473
 "Canby, OR","Stayton, OR",0.47116725268209825
 "Stayton, OR","Canby, OR",0.47116725268209825
-"Canby, OR","The Dalles, OR",1.548311063869248
-"The Dalles, OR","Canby, OR",1.548311063869248
 "Canby, OR","Woodburn, OR",0.20423398468420959
 "Woodburn, OR","Canby, OR",0.20423398468420959
-"Canby, OR","Yelm, WA",1.6816578232506354
-"Yelm, WA","Canby, OR",1.6816578232506354
 "Cañon City, CO","Colorado Springs, CO",0.5753482955567306
 "Colorado Springs, CO","Cañon City, CO",0.5753482955567306
 "Cañon City, CO","Denver, CO",1.322949026153328
@@ -3840,8 +3836,12 @@
 "Hobbs, NM","Carlsbad, NM",1.134955304186042
 "Carlsbad, NM","Lovington, NM",1.0252846846120613
 "Lovington, NM","Carlsbad, NM",1.0252846846120613
+"Carlsbad, NM","Odessa, TX",1.9394153831760486
+"Odessa, TX","Carlsbad, NM",1.9394153831760486
 "Carlsbad, NM","Pecos, TX",1.2355509988664841
 "Pecos, TX","Carlsbad, NM",1.2355509988664841
+"Carlsbad, NM","Portales, NM",1.976742464409575
+"Portales, NM","Carlsbad, NM",1.976742464409575
 "Carlsbad, NM","Roswell, NM",1.0193689050093844
 "Roswell, NM","Carlsbad, NM",1.0193689050093844
 "Carrollton, GA","Cartersville, GA",0.648696168325335
@@ -3876,18 +3876,38 @@
 "Grass Valley, CA","Carson City, NV",1.2956641389264532
 "Carson City, NV","Incline Village, NV",0.21260749422350406
 "Incline Village, NV","Carson City, NV",0.21260749422350406
+"Carson City, NV","Lodi, CA",1.8293987309769333
+"Lodi, CA","Carson City, NV",1.8293987309769333
+"Carson City, NV","Manteca, CA",2.0031288377186094
+"Manteca, CA","Carson City, NV",2.0031288377186094
+"Carson City, NV","Merced, CA",1.997768889661677
+"Merced, CA","Carson City, NV",1.997768889661677
+"Carson City, NV","Modesto, CA",1.962139200005945
+"Modesto, CA","Carson City, NV",1.962139200005945
+"Carson City, NV","Oroville, CA",1.8228169269841645
+"Oroville, CA","Carson City, NV",1.8228169269841645
+"Carson City, NV","Paradise, CA",1.9316970729645904
+"Paradise, CA","Carson City, NV",1.9316970729645904
 "Carson City, NV","Placerville, CA",1.1247761755122812
 "Placerville, CA","Carson City, NV",1.1247761755122812
 "Carson City, NV","Reno, NV",0.36557706930275313
 "Reno, NV","Carson City, NV",0.36557706930275313
+"Carson City, NV","Sacramento, CA",1.8206353393252686
+"Sacramento, CA","Carson City, NV",1.8206353393252686
 "Carson City, NV","Sonora, CA",1.3323197744160222
 "Sonora, CA","Carson City, NV",1.3323197744160222
 "Carson City, NV","South Lake Tahoe, CA",0.3496222807545336
 "South Lake Tahoe, CA","Carson City, NV",0.3496222807545336
+"Carson City, NV","Stockton, CA",1.9463663963909474
+"Stockton, CA","Carson City, NV",1.9463663963909474
 "Carson City, NV","Susanville, CA",1.5308632170119154
 "Susanville, CA","Carson City, NV",1.5308632170119154
 "Carson City, NV","Truckee, CA",0.47341900680053056
 "Truckee, CA","Carson City, NV",0.47341900680053056
+"Carson City, NV","Turlock, CA",1.9884731104292026
+"Turlock, CA","Carson City, NV",1.9884731104292026
+"Carson City, NV","Yuba City, CA",1.8530369852758204
+"Yuba City, CA","Carson City, NV",1.8530369852758204
 "Cartersville, GA","Cedartown, GA",0.4851874780947698
 "Cedartown, GA","Cartersville, GA",0.4851874780947698
 "Cartersville, GA","Dalton, GA",0.6218796591785185
@@ -3904,6 +3924,8 @@
 "Fayetteville, AR","Carthage, MO",1.124436610307556
 "Carthage, MO","Joplin, MO",0.21965983019204732
 "Joplin, MO","Carthage, MO",0.21965983019204732
+"Carthage, MO","Lawrence, KS",2.019203183139374
+"Lawrence, KS","Carthage, MO",2.019203183139374
 "Carthage, MO","Miami, OK",0.639713387150831
 "Miami, OK","Carthage, MO",0.639713387150831
 "Carthage, MO","Neosho, MO",0.31251918741094054
@@ -4012,28 +4034,18 @@
 "Mount Vernon, IL","Centralia, IL",0.3098754001207766
 "Centralia, IL","St. Louis, MO",1.0735979327942196
 "St. Louis, MO","Centralia, IL",1.0735979327942196
-"Centralia, WA","Hood River, OR",1.7665414432161175
-"Hood River, OR","Centralia, WA",1.7665414432161175
 "Centralia, WA","Longview, WA",0.5821349473275141
 "Longview, WA","Centralia, WA",0.5821349473275141
-"Centralia, WA","McMinnville, OR",1.5395452218431387
-"McMinnville, OR","Centralia, WA",1.5395452218431387
-"Centralia, WA","Newberg, OR",1.4287987487396774
-"Newberg, OR","Centralia, WA",1.4287987487396774
 "Centralia, WA","Olympia, WA",0.31661479245288787
 "Olympia, WA","Centralia, WA",0.31661479245288787
 "Centralia, WA","Portland, OR",1.248349768694662
 "Portland, OR","Centralia, WA",1.248349768694662
 "Centralia, WA","St. Helens, OR",0.877257387372765
 "St. Helens, OR","Centralia, WA",0.877257387372765
-"Centralia, WA","Salem, OR",1.7979757371277325
-"Salem, OR","Centralia, WA",1.7979757371277325
 "Centralia, WA","Seattle, WA",1.0741356049400674
 "Seattle, WA","Centralia, WA",1.0741356049400674
 "Centralia, WA","Shelton, WA",0.5070690884879002
 "Shelton, WA","Centralia, WA",0.5070690884879002
-"Centralia, WA","Woodburn, OR",1.5893562553436806
-"Woodburn, OR","Centralia, WA",1.5893562553436806
 "Centralia, WA","Yelm, WA",0.4062277678839854
 "Yelm, WA","Centralia, WA",0.4062277678839854
 "Chambersburg, PA","Charles Town, WV",0.6775801374007359
@@ -4080,6 +4092,8 @@
 "El Paso, TX","Chaparral, NM",0.28948047948004735
 "Chaparral, NM","Las Cruces, NM",0.45539189419663667
 "Las Cruces, NM","Chaparral, NM",0.45539189419663667
+"Chaparral, NM","Silver City, NM",2.0032870736117743
+"Silver City, NM","Chaparral, NM",2.0032870736117743
 "Charleston, IL","Danville, IL",0.8594441958614895
 "Danville, IL","Charleston, IL",0.8594441958614895
 "Charleston, IL","Decatur, IL",0.8510291550822365
@@ -4252,6 +4266,8 @@
 "Longmont, CO","Cheyenne, WY",1.0100747988639738
 "Cheyenne, WY","Scottsbluff, NE",1.368173638249159
 "Scottsbluff, NE","Cheyenne, WY",1.368173638249159
+"Cheyenne, WY","Silverthorne, CO",1.9518561519230986
+"Silverthorne, CO","Cheyenne, WY",1.9518561519230986
 "Cheyenne, WY","Sterling, CO",1.6932083816530112
 "Sterling, CO","Cheyenne, WY",1.6932083816530112
 "Chicago, IL","Delavan, WI",1.2602967299013221
@@ -4292,6 +4308,8 @@
 "Weatherford, OK","Chickasha, OK",0.9048183982435691
 "Chickasha, OK","Wichita Falls, TX",1.2759166399102821
 "Wichita Falls, TX","Chickasha, OK",1.2759166399102821
+"Chico, CA","Incline Village, NV",1.9409699611534645
+"Incline Village, NV","Chico, CA",1.9409699611534645
 "Chico, CA","Oroville, CA",0.35958824897375474
 "Oroville, CA","Chico, CA",0.35958824897375474
 "Chico, CA","Paradise, CA",0.2350007987220796
@@ -4330,6 +4348,8 @@
 "Prescott Valley, AZ","Chino Valley, AZ",0.2155370235017767
 "Chowchilla, CA","Fresno, CA",0.6091222908415297
 "Fresno, CA","Chowchilla, CA",0.6091222908415297
+"Chowchilla, CA","Gardnerville Ranchos, NV",1.840362692650558
+"Gardnerville Ranchos, NV","Chowchilla, CA",1.840362692650558
 "Chowchilla, CA","Kerman, CA",0.441432024325421
 "Kerman, CA","Chowchilla, CA",0.441432024325421
 "Chowchilla, CA","Los Banos, CA",0.5911999980548172
@@ -4414,6 +4434,8 @@
 "Wilmington, OH","Circleville, OH",0.8995163629417603
 "Claremore, OK","Coffeyville, KS",0.7217309003361091
 "Coffeyville, KS","Claremore, OK",0.7217309003361091
+"Claremore, OK","El Dorado, KS",1.947239289353013
+"El Dorado, KS","Claremore, OK",1.947239289353013
 "Claremore, OK","Joplin, MO",1.3463522950921532
 "Joplin, MO","Claremore, OK",1.3463522950921532
 "Claremore, OK","Miami, OK",0.9280125176957104
@@ -4664,6 +4686,8 @@
 "Hibbing, MN","Cloquet, MN",0.8439801411170901
 "Cloquet, MN","Virginia, MN",0.8103955938922794
 "Virginia, MN","Cloquet, MN",0.8103955938922794
+"Clovis, NM","Dumas, TX",1.895150954225025
+"Dumas, TX","Clovis, NM",1.895150954225025
 "Clovis, NM","Hereford, TX",0.8971734510672824
 "Hereford, TX","Clovis, NM",0.8971734510672824
 "Clovis, NM","Hobbs, NM",1.71038556229291
@@ -4764,12 +4788,16 @@
 "Fayetteville, AR","Coffeyville, KS",1.7516059640227426
 "Coffeyville, KS","Joplin, MO",1.1043155572570573
 "Joplin, MO","Coffeyville, KS",1.1043155572570573
+"Coffeyville, KS","Lawrence, KS",1.9770491557369025
+"Lawrence, KS","Coffeyville, KS",1.9770491557369025
 "Coffeyville, KS","Miami, OK",0.7559043236415693
 "Miami, OK","Coffeyville, KS",0.7559043236415693
 "Coffeyville, KS","Muskogee, OK",1.3081112417528116
 "Muskogee, OK","Coffeyville, KS",1.3081112417528116
 "Coffeyville, KS","Neosho, MO",1.2619746964579144
 "Neosho, MO","Coffeyville, KS",1.2619746964579144
+"Coffeyville, KS","Newton, KS",2.0072351587445
+"Newton, KS","Coffeyville, KS",2.0072351587445
 "Coffeyville, KS","Okmulgee, OK",1.4548720110030122
 "Okmulgee, OK","Coffeyville, KS",1.4548720110030122
 "Coffeyville, KS","Ottawa, KS",1.6138448562361736
@@ -4786,8 +4814,12 @@
 "Stillwater, OK","Coffeyville, KS",1.708555255091251
 "Coffeyville, KS","Tahlequah, OK",1.2930282924205494
 "Tahlequah, OK","Coffeyville, KS",1.2930282924205494
+"Coffeyville, KS","Topeka, KS",2.017059392903448
+"Topeka, KS","Coffeyville, KS",2.017059392903448
 "Coffeyville, KS","Tulsa, OK",0.9599559495102107
 "Tulsa, OK","Coffeyville, KS",0.9599559495102107
+"Coffeyville, KS","Wichita, KS",1.8394034089888622
+"Wichita, KS","Coffeyville, KS",1.8394034089888622
 "Coffeyville, KS","Winfield, KS",1.3961978484799078
 "Winfield, KS","Coffeyville, KS",1.3961978484799078
 "Colchester, CT","Hartford, CT",0.3950611629861722
@@ -4966,6 +4998,8 @@
 "Grand Island, NE","Columbus, NE",1.092192405210705
 "Columbus, NE","Hastings, NE",1.3250176845989863
 "Hastings, NE","Columbus, NE",1.3250176845989863
+"Columbus, NE","Kearney, NE",1.860732023102738
+"Kearney, NE","Columbus, NE",1.860732023102738
 "Columbus, NE","Lincoln, NE",0.9074265592321679
 "Lincoln, NE","Columbus, NE",0.9074265592321679
 "Columbus, NE","Norfolk, NE",0.6028238254250122
@@ -5050,14 +5084,10 @@
 "Lebanon, NH","Concord, NH",0.8402802799661577
 "Concord, NH","Leominster, MA",0.7167157403740924
 "Leominster, MA","Concord, NH",0.7167157403740924
-"Concord, NH","Lewiston, ME",1.5913022791726539
-"Lewiston, ME","Concord, NH",1.5913022791726539
 "Concord, NH","Manchester, NH",0.22821010604265898
 "Manchester, NH","Concord, NH",0.22821010604265898
 "Concord, NH","Nashua, NH",0.45421182943644806
 "Nashua, NH","Concord, NH",0.45421182943644806
-"Concord, NH","Portland, ME",1.3573536077235113
-"Portland, ME","Concord, NH",1.3573536077235113
 "Concord, NH","Portsmouth, NH",0.7765372193269361
 "Portsmouth, NH","Concord, NH",0.7765372193269361
 "Concord, NH","Sanford, ME",0.7982280892702427
@@ -5168,28 +5198,14 @@
 "Sahuarita, AZ","Coolidge, AZ",1.1586730465493584
 "Coolidge, AZ","Tucson, AZ",0.9327189984126772
 "Tucson, AZ","Coolidge, AZ",0.9327189984126772
-"Coos Bay, OR","Corvallis, OR",1.5320494333082029
-"Corvallis, OR","Coos Bay, OR",1.5320494333082029
 "Coos Bay, OR","Cottage Grove, OR",1.2323583149798782
 "Cottage Grove, OR","Coos Bay, OR",1.2323583149798782
-"Coos Bay, OR","Crescent City, CA",1.615274114693853
-"Crescent City, CA","Coos Bay, OR",1.615274114693853
-"Coos Bay, OR","Dallas, OR",1.7971421877247364
-"Dallas, OR","Coos Bay, OR",1.7971421877247364
 "Coos Bay, OR","Eugene, OR",1.3207907695392123
 "Eugene, OR","Coos Bay, OR",1.3207907695392123
 "Coos Bay, OR","Florence, OR",0.6115867461775124
 "Florence, OR","Coos Bay, OR",0.6115867461775124
 "Coos Bay, OR","Grants Pass, OR",1.2868824963065073
 "Grants Pass, OR","Coos Bay, OR",1.2868824963065073
-"Coos Bay, OR","Lebanon, OR",1.7576533306655926
-"Lebanon, OR","Coos Bay, OR",1.7576533306655926
-"Coos Bay, OR","Lincoln City, OR",1.5751237458688683
-"Lincoln City, OR","Coos Bay, OR",1.5751237458688683
-"Coos Bay, OR","Medford, OR",1.7021347333862875
-"Medford, OR","Coos Bay, OR",1.7021347333862875
-"Coos Bay, OR","Monmouth, OR",1.7769969496034579
-"Monmouth, OR","Coos Bay, OR",1.7769969496034579
 "Coos Bay, OR","Newport, OR",1.2746442380523193
 "Newport, OR","Coos Bay, OR",1.2746442380523193
 "Coos Bay, OR","Roseburg, OR",0.8903558605973392
@@ -5342,8 +5358,6 @@
 "Lebanon, OR","Corvallis, OR",0.3575789709979616
 "Corvallis, OR","Lincoln City, OR",0.8378789844005445
 "Lincoln City, OR","Corvallis, OR",0.8378789844005445
-"Corvallis, OR","Longview, WA",1.6124370230493084
-"Longview, WA","Corvallis, OR",1.6124370230493084
 "Corvallis, OR","McMinnville, OR",0.6473791572950401
 "McMinnville, OR","Corvallis, OR",0.6473791572950401
 "Corvallis, OR","Monmouth, OR",0.28475575569249795
@@ -5354,10 +5368,6 @@
 "Newport, OR","Corvallis, OR",0.796931707049021
 "Corvallis, OR","Portland, OR",1.1144314209497406
 "Portland, OR","Corvallis, OR",1.1144314209497406
-"Corvallis, OR","Roseburg, OR",1.356486932189149
-"Roseburg, OR","Corvallis, OR",1.356486932189149
-"Corvallis, OR","St. Helens, OR",1.3770222733492703
-"St. Helens, OR","Corvallis, OR",1.3770222733492703
 "Corvallis, OR","Salem, OR",0.42879065160055
 "Salem, OR","Corvallis, OR",0.42879065160055
 "Corvallis, OR","Stayton, OR",0.5258805694261685
@@ -5388,32 +5398,18 @@
 "Eugene, OR","Cottage Grove, OR",0.2537195632977152
 "Cottage Grove, OR","Florence, OR",1.0567470086070656
 "Florence, OR","Cottage Grove, OR",1.0567470086070656
-"Cottage Grove, OR","Grants Pass, OR",1.3786234195747948
-"Grants Pass, OR","Cottage Grove, OR",1.3786234195747948
 "Cottage Grove, OR","Lebanon, OR",0.7561310421480638
 "Lebanon, OR","Cottage Grove, OR",0.7561310421480638
-"Cottage Grove, OR","Lincoln City, OR",1.4804176937945654
-"Lincoln City, OR","Cottage Grove, OR",1.4804176937945654
-"Cottage Grove, OR","McMinnville, OR",1.4182624974594706
-"McMinnville, OR","Cottage Grove, OR",1.4182624974594706
-"Cottage Grove, OR","Medford, OR",1.485837971146277
-"Medford, OR","Cottage Grove, OR",1.485837971146277
 "Cottage Grove, OR","Monmouth, OR",1.0652676960275895
 "Monmouth, OR","Cottage Grove, OR",1.0652676960275895
-"Cottage Grove, OR","Newberg, OR",1.5056092467834856
-"Newberg, OR","Cottage Grove, OR",1.5056092467834856
 "Cottage Grove, OR","Newport, OR",1.2974266805103156
 "Newport, OR","Cottage Grove, OR",1.2974266805103156
-"Cottage Grove, OR","Portland, OR",1.758002910862209
-"Portland, OR","Cottage Grove, OR",1.758002910862209
 "Cottage Grove, OR","Roseburg, OR",0.6493267012837352
 "Roseburg, OR","Cottage Grove, OR",0.6493267012837352
 "Cottage Grove, OR","Salem, OR",1.136108775822103
 "Salem, OR","Cottage Grove, OR",1.136108775822103
 "Cottage Grove, OR","Stayton, OR",1.0408985947247262
 "Stayton, OR","Cottage Grove, OR",1.0408985947247262
-"Cottage Grove, OR","Woodburn, OR",1.3606191215766232
-"Woodburn, OR","Cottage Grove, OR",1.3606191215766232
 "Cottonwood, AZ","Flagstaff, AZ",0.5815806606997618
 "Flagstaff, AZ","Cottonwood, AZ",0.5815806606997618
 "Cottonwood, AZ","Payson, AZ",0.8533867428663309
@@ -5428,6 +5424,8 @@
 "Glenwood Springs, CO","Craig, CO",0.9938125723193755
 "Craig, CO","Rifle, CO",1.00883782343842
 "Rifle, CO","Craig, CO",1.00883782343842
+"Craig, CO","Rock Springs, WY",1.9885502277035956
+"Rock Springs, WY","Craig, CO",1.9885502277035956
 "Craig, CO","Steamboat Springs, CO",0.7119688861179778
 "Steamboat Springs, CO","Craig, CO",0.7119688861179778
 "Crawfordsville, IN","Danville, IL",0.7384710109408554
@@ -5452,10 +5450,6 @@
 "Terre Haute, IN","Crawfordsville, IN",0.7702592946534348
 "Crescent City, CA","Grants Pass, OR",1.1154851189056514
 "Grants Pass, OR","Crescent City, CA",1.1154851189056514
-"Crescent City, CA","Medford, OR",1.4425612933251366
-"Medford, OR","Crescent City, CA",1.4425612933251366
-"Crescent City, CA","Roseburg, OR",1.6913816785397646
-"Roseburg, OR","Crescent City, CA",1.6913816785397646
 "Cresson, PA","Cumberland, MD",0.8263028687472672
 "Cumberland, MD","Cresson, PA",0.8263028687472672
 "Cresson, PA","DuBois, PA",0.6808508930742726
@@ -5588,8 +5582,6 @@
 "Newport, OR","Dallas, OR",0.7964632336147379
 "Dallas, OR","Portland, OR",0.8707669851343699
 "Portland, OR","Dallas, OR",0.8707669851343699
-"Dallas, OR","Roseburg, OR",1.7103285566229778
-"Roseburg, OR","Dallas, OR",1.7103285566229778
 "Dallas, OR","St. Helens, OR",1.071524919215571
 "St. Helens, OR","Dallas, OR",1.071524919215571
 "Dallas, OR","Salem, OR",0.27177711989790776
@@ -5756,6 +5748,10 @@
 "Fairfield, CA","Davis, CA",0.4222731052293316
 "Davis, CA","Galt, CA",0.532149065206356
 "Galt, CA","Davis, CA",0.532149065206356
+"Davis, CA","Gardnerville Ranchos, NV",2.0332232302430375
+"Gardnerville Ranchos, NV","Davis, CA",2.0332232302430375
+"Davis, CA","Incline Village, NV",1.9166876422881027
+"Incline Village, NV","Davis, CA",1.9166876422881027
 "Davis, CA","Livermore, CA",0.871102347718115
 "Livermore, CA","Davis, CA",0.871102347718115
 "Davis, CA","Lodi, CA",0.6272866032365082
@@ -5782,16 +5778,24 @@
 "Fallon, NV","Dayton, NV",0.8451345256229916
 "Dayton, NV","Fernley, NV",0.4994229931631409
 "Fernley, NV","Dayton, NV",0.4994229931631409
+"Dayton, NV","Galt, CA",1.9747458862344511
+"Galt, CA","Dayton, NV",1.9747458862344511
 "Dayton, NV","Gardnerville Ranchos, NV",0.38038431776292725
 "Gardnerville Ranchos, NV","Dayton, NV",0.38038431776292725
 "Dayton, NV","Grass Valley, CA",1.4724471039056026
 "Grass Valley, CA","Dayton, NV",1.4724471039056026
 "Dayton, NV","Incline Village, NV",0.37276031561848455
 "Incline Village, NV","Dayton, NV",0.37276031561848455
+"Dayton, NV","Lodi, CA",2.017588869170319
+"Lodi, CA","Dayton, NV",2.017588869170319
+"Dayton, NV","Oroville, CA",1.9862067433678605
+"Oroville, CA","Dayton, NV",1.9862067433678605
 "Dayton, NV","Placerville, CA",1.3168821621162647
 "Placerville, CA","Dayton, NV",1.3168821621162647
 "Dayton, NV","Reno, NV",0.3665226302699366
 "Reno, NV","Dayton, NV",0.3665226302699366
+"Dayton, NV","Sacramento, CA",2.012427443288327
+"Sacramento, CA","Dayton, NV",2.012427443288327
 "Dayton, NV","Sonora, CA",1.4841668814523277
 "Sonora, CA","Dayton, NV",1.4841668814523277
 "Dayton, NV","South Lake Tahoe, CA",0.5307281919212387
@@ -5800,6 +5804,8 @@
 "Susanville, CA","Dayton, NV",1.5850480663058975
 "Dayton, NV","Truckee, CA",0.6292052165231828
 "Truckee, CA","Dayton, NV",0.6292052165231828
+"Dayton, NV","Yuba City, CA",2.0329901461886304
+"Yuba City, CA","Dayton, NV",2.0329901461886304
 "Dayton, OH","Greenville, OH",0.5585994522015975
 "Greenville, OH","Dayton, OH",0.5585994522015975
 "Dayton, OH","Harrison, OH",0.7968426490217423
@@ -6068,10 +6074,14 @@
 "Poinciana, FL","Deltona, FL",0.8260884741963213
 "Deltona, FL","Titusville, FL",0.5271342926617802
 "Titusville, FL","Deltona, FL",0.5271342926617802
+"Deming, NM","Douglas, AZ",2.0168731484156432
+"Douglas, AZ","Deming, NM",2.0168731484156432
 "Deming, NM","El Paso, TX",1.3692487725026328
 "El Paso, TX","Deming, NM",1.3692487725026328
 "Deming, NM","Las Cruces, NM",0.9815795208234727
 "Las Cruces, NM","Deming, NM",0.9815795208234727
+"Deming, NM","Safford, AZ",2.030513320813252
+"Safford, AZ","Deming, NM",2.030513320813252
 "Deming, NM","Silver City, NM",0.7202363493326196
 "Silver City, NM","Deming, NM",0.7202363493326196
 "Denton, TX","Durant, OK",1.0765260109258667
@@ -6172,6 +6182,8 @@
 "South Lyon, MI","Detroit, MI",0.6187552362606874
 "Detroit, MI","Toledo, OH",0.8354074242547785
 "Toledo, OH","Detroit, MI",0.8354074242547785
+"Dickinson, ND","Minot, ND",2.0186974377058124
+"Minot, ND","Dickinson, ND",2.0186974377058124
 "Dickinson, ND","Williston, ND",1.5162044052501618
 "Williston, ND","Dickinson, ND",1.5162044052501618
 "Dickson, TN","Florence, AL",1.3079568392343957
@@ -6236,6 +6248,8 @@
 "Fairfield, CA","Dixon, CA",0.30026540143681174
 "Dixon, CA","Galt, CA",0.5509920040254477
 "Galt, CA","Dixon, CA",0.5509920040254477
+"Dixon, CA","Incline Village, NV",2.022393372071794
+"Incline Village, NV","Dixon, CA",2.022393372071794
 "Dixon, CA","Livermore, CA",0.7720403179238546
 "Livermore, CA","Dixon, CA",0.7720403179238546
 "Dixon, CA","Lodi, CA",0.6266703424448655
@@ -6304,6 +6318,8 @@
 "Garden City, KS","Dodge City, KS",0.8813014889922531
 "Dodge City, KS","Great Bend, KS",1.395752545582464
 "Great Bend, KS","Dodge City, KS",1.395752545582464
+"Dodge City, KS","Guymon, OK",1.8128590998751537
+"Guymon, OK","Dodge City, KS",1.8128590998751537
 "Dodge City, KS","Hays, KS",1.3121377065307935
 "Hays, KS","Dodge City, KS",1.3121377065307935
 "Dodge City, KS","Liberal, KS",1.1589016891005277
@@ -6344,6 +6360,8 @@
 "Troy, AL","Dothan, AL",0.8239525814025784
 "Douglas, AZ","Sierra Vista, AZ",0.7572247645844843
 "Sierra Vista, AZ","Douglas, AZ",0.7572247645844843
+"Douglas, AZ","Silver City, NM",1.9138116116535553
+"Silver City, NM","Douglas, AZ",1.9138116116535553
 "Douglas, GA","Fitzgerald, GA",0.453834119916101
 "Fitzgerald, GA","Douglas, GA",0.453834119916101
 "Douglas, GA","Tifton, GA",0.6621928423050518
@@ -6484,6 +6502,8 @@
 "Wilson, NC","Dunn, NC",0.8072952982644669
 "Durango, CO","Farmington, NM",0.6357148834186487
 "Farmington, NM","Durango, CO",0.6357148834186487
+"Durango, CO","Gallup, NM",1.9480420263690528
+"Gallup, NM","Durango, CO",1.9480420263690528
 "Durango, CO","Montrose, CO",1.204951213369235
 "Montrose, CO","Durango, CO",1.204951213369235
 "Durant, OK","Forney, TX",1.2470228177944682
@@ -6676,6 +6696,8 @@
 "Evergreen, CO","Edwards, CO",1.27455125236301
 "Edwards, CO","Glenwood Springs, CO",0.7367611674077206
 "Glenwood Springs, CO","Edwards, CO",0.7367611674077206
+"Edwards, CO","Laramie, WY",1.9450944414089442
+"Laramie, WY","Edwards, CO",1.9450944414089442
 "Edwards, CO","Rifle, CO",1.1949568529867356
 "Rifle, CO","Edwards, CO",1.1949568529867356
 "Edwards, CO","Silverthorne, CO",0.520471477412549
@@ -6724,10 +6746,14 @@
 "Emporia, KS","El Dorado, KS",0.8913809844281199
 "El Dorado, KS","Enid, OK",1.7530728562726492
 "Enid, OK","El Dorado, KS",1.7530728562726492
+"El Dorado, KS","Great Bend, KS",1.992411393287033
+"Great Bend, KS","El Dorado, KS",1.992411393287033
 "El Dorado, KS","Hutchinson, KS",1.1089714315977264
 "Hutchinson, KS","El Dorado, KS",1.1089714315977264
 "El Dorado, KS","Junction City, KS",1.211164261774583
 "Junction City, KS","El Dorado, KS",1.211164261774583
+"El Dorado, KS","Lawrence, KS",1.9848569481199378
+"Lawrence, KS","El Dorado, KS",1.9848569481199378
 "El Dorado, KS","McPherson, KS",0.9852757652555878
 "McPherson, KS","El Dorado, KS",0.9852757652555878
 "El Dorado, KS","Manhattan, KS",1.3916755498678584
@@ -6746,6 +6772,8 @@
 "Stillwater, OK","El Dorado, KS",1.7133751794630414
 "El Dorado, KS","Topeka, KS",1.7049983733130472
 "Topeka, KS","El Dorado, KS",1.7049983733130472
+"El Dorado, KS","Tulsa, OK",1.874180912425492
+"Tulsa, OK","El Dorado, KS",1.874180912425492
 "El Dorado, KS","Wichita, KS",0.5028216201596364
 "Wichita, KS","El Dorado, KS",0.5028216201596364
 "El Dorado, KS","Winfield, KS",0.5949922100330189
@@ -6888,18 +6916,14 @@
 "Staunton, VA","Elkins, WV",1.0930326678558
 "Elkins, WV","Uniontown, PA",0.9854516642129422
 "Uniontown, PA","Elkins, WV",0.9854516642129422
+"Elko, NV","Winnemucca, NV",1.9724546967168104
+"Winnemucca, NV","Elko, NV",1.9724546967168104
 "Ellensburg, WA","Grandview, WA",0.984012114254704
 "Grandview, WA","Ellensburg, WA",0.984012114254704
-"Ellensburg, WA","Hermiston, OR",1.709751172802604
-"Hermiston, OR","Ellensburg, WA",1.709751172802604
-"Ellensburg, WA","Hood River, OR",1.6077533867170266
-"Hood River, OR","Ellensburg, WA",1.6077533867170266
 "Ellensburg, WA","Moses Lake, WA",1.2787585891402489
 "Moses Lake, WA","Ellensburg, WA",1.2787585891402489
 "Ellensburg, WA","Sunnyside, WA",0.8625665716337502
 "Sunnyside, WA","Ellensburg, WA",0.8625665716337502
-"Ellensburg, WA","The Dalles, OR",1.5330431221919718
-"The Dalles, OR","Ellensburg, WA",1.5330431221919718
 "Ellensburg, WA","Toppenish, WA",0.6651279201026042
 "Toppenish, WA","Ellensburg, WA",0.6651279201026042
 "Ellensburg, WA","Wenatchee, WA",0.4836744960197891
@@ -6970,6 +6994,8 @@
 "Stillwater, OK","El Reno, OK",1.07005787717302
 "El Reno, OK","Weatherford, OK",0.7510802953080209
 "Weatherford, OK","El Reno, OK",0.7510802953080209
+"El Reno, OK","Winfield, KS",1.9578395463622709
+"Winfield, KS","El Reno, OK",1.9578395463622709
 "Emporia, KS","Hutchinson, KS",1.786609387890923
 "Hutchinson, KS","Emporia, KS",1.786609387890923
 "Emporia, KS","Junction City, KS",0.9003308089807966
@@ -6980,10 +7006,14 @@
 "Lawrence, KS","Emporia, KS",1.1014174691278185
 "Emporia, KS","Leavenworth, KS",1.5602576972089948
 "Leavenworth, KS","Emporia, KS",1.5602576972089948
+"Emporia, KS","Lee's Summit, MO",1.8750106612229747
+"Lee's Summit, MO","Emporia, KS",1.8750106612229747
 "Emporia, KS","McPherson, KS",1.4861321740007178
 "McPherson, KS","Emporia, KS",1.4861321740007178
 "Emporia, KS","Manhattan, KS",0.8622837853630452
 "Manhattan, KS","Emporia, KS",0.8622837853630452
+"Emporia, KS","Miami, OK",2.0105827000150973
+"Miami, OK","Emporia, KS",2.0105827000150973
 "Emporia, KS","Newton, KS",1.2170774161901468
 "Newton, KS","Emporia, KS",1.2170774161901468
 "Emporia, KS","Ottawa, KS",0.9338782831289757
@@ -6992,6 +7022,10 @@
 "Parsons, KS","Emporia, KS",1.4085725543968122
 "Emporia, KS","Pittsburg, KS",1.7794282581211136
 "Pittsburg, KS","Emporia, KS",1.7794282581211136
+"Emporia, KS","Ponca City, OK",1.9249126875783444
+"Ponca City, OK","Emporia, KS",1.9249126875783444
+"Emporia, KS","St. Joseph, MO",1.8988247228482822
+"St. Joseph, MO","Emporia, KS",1.8988247228482822
 "Emporia, KS","Salina, KS",1.4942414179777226
 "Salina, KS","Emporia, KS",1.4942414179777226
 "Emporia, KS","Topeka, KS",0.8206001357543338
@@ -7002,6 +7036,8 @@
 "Winfield, KS","Emporia, KS",1.4227812363817391
 "Enid, OK","Hutchinson, KS",1.660512835391516
 "Hutchinson, KS","Enid, OK",1.660512835391516
+"Enid, OK","McPherson, KS",1.9831467905830673
+"McPherson, KS","Enid, OK",1.9831467905830673
 "Enid, OK","Newton, KS",1.7394125597453731
 "Newton, KS","Enid, OK",1.7394125597453731
 "Enid, OK","Norman, OK",1.2535296726045297
@@ -7066,6 +7102,8 @@
 "Marinette, WI","Escanaba, MI",0.850370675999567
 "Escanaba, MI","Marquette, MI",0.8667563215806611
 "Marquette, MI","Escanaba, MI",0.8667563215806611
+"Espanola, NM","Grants, NM",1.9587911425162685
+"Grants, NM","Espanola, NM",1.9587911425162685
 "Espanola, NM","Las Vegas, NM",0.950457011126714
 "Las Vegas, NM","Espanola, NM",0.950457011126714
 "Espanola, NM","Los Alamos, NM",0.25017902390090346
@@ -7084,24 +7122,18 @@
 "Phoenix, AZ","Estrella, AZ",0.5635442499928005
 "Eugene, OR","Florence, OR",1.0218686769834802
 "Florence, OR","Eugene, OR",1.0218686769834802
-"Eugene, OR","Grants Pass, OR",1.623705103582546
-"Grants Pass, OR","Eugene, OR",1.623705103582546
 "Eugene, OR","Lebanon, OR",0.519694170546462
 "Lebanon, OR","Eugene, OR",0.519694170546462
 "Eugene, OR","Lincoln City, OR",1.279843884424999
 "Lincoln City, OR","Eugene, OR",1.279843884424999
 "Eugene, OR","McMinnville, OR",1.1645429431755858
 "McMinnville, OR","Eugene, OR",1.1645429431755858
-"Eugene, OR","Medford, OR",1.7394418744240887
-"Medford, OR","Eugene, OR",1.7394418744240887
 "Eugene, OR","Monmouth, OR",0.8123134972410572
 "Monmouth, OR","Eugene, OR",0.8123134972410572
 "Eugene, OR","Newberg, OR",1.2554919838852139
 "Newberg, OR","Eugene, OR",1.2554919838852139
 "Eugene, OR","Newport, OR",1.1305789694223256
 "Newport, OR","Eugene, OR",1.1305789694223256
-"Eugene, OR","Portland, OR",1.519065029878611
-"Portland, OR","Eugene, OR",1.519065029878611
 "Eugene, OR","Roseburg, OR",0.8768458894241128
 "Roseburg, OR","Eugene, OR",0.8768458894241128
 "Eugene, OR","Salem, OR",0.8844717793689398
@@ -7204,6 +7236,8 @@
 "Maryville, MO","Excelsior Springs, MO",1.1978429594066382
 "Excelsior Springs, MO","Ottawa, KS",1.2728775952541622
 "Ottawa, KS","Excelsior Springs, MO",1.2728775952541622
+"Excelsior Springs, MO","Pittsburg, KS",1.9869953462451568
+"Pittsburg, KS","Excelsior Springs, MO",1.9869953462451568
 "Excelsior Springs, MO","St. Joseph, MO",0.7612070822713278
 "St. Joseph, MO","Excelsior Springs, MO",0.7612070822713278
 "Excelsior Springs, MO","Sedalia, MO",1.1794746312235838
@@ -7296,12 +7330,18 @@
 "South Lake Tahoe, CA","Fallon, NV",1.3527017593320334
 "Fallon, NV","Truckee, CA",1.4418775039856604
 "Truckee, CA","Fallon, NV",1.4418775039856604
+"Fallon, NV","Winnemucca, NV",1.82550618130971
+"Winnemucca, NV","Fallon, NV",1.82550618130971
 "Fargo, ND","Fergus Falls, MN",0.9273408979441992
 "Fergus Falls, MN","Fargo, ND",0.9273408979441992
 "Fargo, ND","Grand Forks, ND",1.077807727426397
 "Grand Forks, ND","Fargo, ND",1.077807727426397
+"Fargo, ND","Jamestown, ND",1.9270872363492093
+"Jamestown, ND","Fargo, ND",1.9270872363492093
 "Fargo, ND","Wahpeton, ND",0.6370763085376461
 "Wahpeton, ND","Fargo, ND",0.6370763085376461
+"Fargo, ND","Watertown, SD",2.0017121465635195
+"Watertown, SD","Fargo, ND",2.0017121465635195
 "Faribault, MN","Forest Lake, MN",1.02820612549238
 "Forest Lake, MN","Faribault, MN",1.02820612549238
 "Faribault, MN","Hastings, MN",0.6135871545265243
@@ -7392,6 +7432,8 @@
 "Siloam Springs, AR","Fayetteville, AR",0.40342440407097785
 "Fayetteville, AR","Tahlequah, OK",0.8290920944020588
 "Tahlequah, OK","Fayetteville, AR",0.8290920944020588
+"Fergus Falls, MN","Grand Forks, ND",1.9049132892864238
+"Grand Forks, ND","Fergus Falls, MN",1.9049132892864238
 "Fergus Falls, MN","Wahpeton, ND",0.5325226553865736
 "Wahpeton, ND","Fergus Falls, MN",0.5325226553865736
 "Fergus Falls, MN","Watertown, SD",1.7224620020482269
@@ -7408,12 +7450,16 @@
 "St. Simons, GA","Fernandina Beach, FL",0.47104603862042665
 "Fernley, NV","Gardnerville Ranchos, NV",0.8668013567709698
 "Gardnerville Ranchos, NV","Fernley, NV",0.8668013567709698
+"Fernley, NV","Grass Valley, CA",1.854756667948658
+"Grass Valley, CA","Fernley, NV",1.854756667948658
 "Fernley, NV","Incline Village, NV",0.7966271813088115
 "Incline Village, NV","Fernley, NV",0.7966271813088115
 "Fernley, NV","Placerville, CA",1.7850109114512651
 "Placerville, CA","Fernley, NV",1.7850109114512651
 "Fernley, NV","Reno, NV",0.5717897720316448
 "Reno, NV","Fernley, NV",0.5717897720316448
+"Fernley, NV","Sonora, CA",1.976674851790259
+"Sonora, CA","Fernley, NV",1.976674851790259
 "Fernley, NV","South Lake Tahoe, CA",1.0271550072895699
 "South Lake Tahoe, CA","Fernley, NV",1.0271550072895699
 "Fernley, NV","Susanville, CA",1.6226261144823149
@@ -7520,28 +7566,16 @@
 "Sahuarita, AZ","Florence, AZ",1.1658537493613812
 "Florence, AZ","Tucson, AZ",0.9229199625644466
 "Tucson, AZ","Florence, AZ",0.9229199625644466
-"Florence, OR","Grants Pass, OR",1.7147448967120569
-"Grants Pass, OR","Florence, OR",1.7147448967120569
 "Florence, OR","Lebanon, OR",1.3276895143443204
 "Lebanon, OR","Florence, OR",1.3276895143443204
 "Florence, OR","Lincoln City, OR",0.9651216205743163
 "Lincoln City, OR","Florence, OR",0.9651216205743163
-"Florence, OR","McMinnville, OR",1.537004518958867
-"McMinnville, OR","Florence, OR",1.537004518958867
 "Florence, OR","Monmouth, OR",1.2371853444007441
 "Monmouth, OR","Florence, OR",1.2371853444007441
-"Florence, OR","Newberg, OR",1.7471843843738755
-"Newberg, OR","Florence, OR",1.7471843843738755
 "Florence, OR","Newport, OR",0.6649930914678703
 "Newport, OR","Florence, OR",0.6649930914678703
 "Florence, OR","Roseburg, OR",1.0763513465407044
 "Roseburg, OR","Florence, OR",1.0763513465407044
-"Florence, OR","Salem, OR",1.4353975814735183
-"Salem, OR","Florence, OR",1.4353975814735183
-"Florence, OR","Stayton, OR",1.5550753870150344
-"Stayton, OR","Florence, OR",1.5550753870150344
-"Florence, OR","Woodburn, OR",1.7129790219964705
-"Woodburn, OR","Florence, OR",1.7129790219964705
 "Florence, SC","Hartsville, SC",0.35532342464297484
 "Hartsville, SC","Florence, SC",0.35532342464297484
 "Florence, SC","Laurinburg, NC",0.6557879341677518
@@ -7750,6 +7784,8 @@
 "Laramie, WY","Fort Collins, CO",0.8920990762241366
 "Fort Collins, CO","Longmont, CO",0.41819643817230057
 "Longmont, CO","Fort Collins, CO",0.41819643817230057
+"Fort Collins, CO","Scottsbluff, NE",1.9076950418764775
+"Scottsbluff, NE","Fort Collins, CO",1.9076950418764775
 "Fort Dodge, IA","Indianola, IA",1.299754996143494
 "Indianola, IA","Fort Dodge, IA",1.299754996143494
 "Fort Dodge, IA","Marshalltown, IA",1.3476053253085352
@@ -8058,8 +8094,12 @@
 "Watertown, WI","Freeport, IL",1.273676331451625
 "Freeport, IL","Whitewater, WI",1.0342907255699518
 "Whitewater, WI","Freeport, IL",1.0342907255699518
+"Fremont, NE","Grand Island, NE",1.9105363641920012
+"Grand Island, NE","Fremont, NE",1.9105363641920012
 "Fremont, NE","Lincoln, NE",0.6549319919655845
 "Lincoln, NE","Fremont, NE",0.6549319919655845
+"Fremont, NE","Maryville, MO",1.9555972981419225
+"Maryville, MO","Fremont, NE",1.9555972981419225
 "Fremont, NE","Norfolk, NE",1.0911215063410729
 "Norfolk, NE","Fremont, NE",1.0911215063410729
 "Fremont, NE","Omaha, NE",0.5847441051434358
@@ -8270,6 +8310,8 @@
 "Slidell, LA","Galliano, LA",0.9868460914448703
 "Gallup, NM","Grants, NM",0.9700264565979234
 "Grants, NM","Gallup, NM",0.9700264565979234
+"Gallup, NM","Show Low, AZ",1.8218184030522848
+"Show Low, AZ","Gallup, NM",1.8218184030522848
 "Galt, CA","Gardnerville Ranchos, NV",1.6850264208017525
 "Gardnerville Ranchos, NV","Galt, CA",1.6850264208017525
 "Galt, CA","Incline Village, NV",1.6696972772631309
@@ -8286,6 +8328,8 @@
 "Patterson, CA","Galt, CA",0.7986893374147698
 "Galt, CA","Placerville, CA",0.6877828919797062
 "Placerville, CA","Galt, CA",0.6877828919797062
+"Galt, CA","Reno, NV",1.9587714025122707
+"Reno, NV","Galt, CA",1.9587714025122707
 "Galt, CA","Sacramento, CA",0.37773642146340825
 "Sacramento, CA","Galt, CA",0.37773642146340825
 "Galt, CA","Stockton, CA",0.29943892549233253
@@ -8320,10 +8364,20 @@
 "Incline Village, NV","Gardnerville Ranchos, NV",0.4239736176933123
 "Gardnerville Ranchos, NV","Lodi, CA",1.7123863828587402
 "Lodi, CA","Gardnerville Ranchos, NV",1.7123863828587402
+"Gardnerville Ranchos, NV","Madera, CA",1.953715883643317
+"Madera, CA","Gardnerville Ranchos, NV",1.953715883643317
+"Gardnerville Ranchos, NV","Manteca, CA",1.847396660059762
+"Manteca, CA","Gardnerville Ranchos, NV",1.847396660059762
 "Gardnerville Ranchos, NV","Merced, CA",1.754060810633473
 "Merced, CA","Gardnerville Ranchos, NV",1.754060810633473
 "Gardnerville Ranchos, NV","Modesto, CA",1.775121157921352
 "Modesto, CA","Gardnerville Ranchos, NV",1.775121157921352
+"Gardnerville Ranchos, NV","Newman, CA",2.0278380842661354
+"Newman, CA","Gardnerville Ranchos, NV",2.0278380842661354
+"Gardnerville Ranchos, NV","Oroville, CA",1.9203601758524071
+"Oroville, CA","Gardnerville Ranchos, NV",1.9203601758524071
+"Gardnerville Ranchos, NV","Patterson, CA",1.983517640783689
+"Patterson, CA","Gardnerville Ranchos, NV",1.983517640783689
 "Gardnerville Ranchos, NV","Placerville, CA",1.0750924051913087
 "Placerville, CA","Gardnerville Ranchos, NV",1.0750924051913087
 "Gardnerville Ranchos, NV","Reno, NV",0.6430697256907137
@@ -8334,12 +8388,16 @@
 "Sonora, CA","Gardnerville Ranchos, NV",1.1099001261374968
 "Gardnerville Ranchos, NV","South Lake Tahoe, CA",0.2684542286870999
 "South Lake Tahoe, CA","Gardnerville Ranchos, NV",0.2684542286870999
+"Gardnerville Ranchos, NV","Stockton, CA",1.8103046203608737
+"Stockton, CA","Gardnerville Ranchos, NV",1.8103046203608737
 "Gardnerville Ranchos, NV","Susanville, CA",1.7772747325329143
 "Susanville, CA","Gardnerville Ranchos, NV",1.7772747325329143
 "Gardnerville Ranchos, NV","Truckee, CA",0.643342160051682
 "Truckee, CA","Gardnerville Ranchos, NV",0.643342160051682
 "Gardnerville Ranchos, NV","Turlock, CA",1.7793013269820448
 "Turlock, CA","Gardnerville Ranchos, NV",1.7793013269820448
+"Gardnerville Ranchos, NV","Yuba City, CA",1.8963610255697727
+"Yuba City, CA","Gardnerville Ranchos, NV",1.8963610255697727
 "Gastonia, NC","Hickory, NC",0.4955010659928234
 "Hickory, NC","Gastonia, NC",0.4955010659928234
 "Gastonia, NC","Lancaster, SC",0.682586531144593
@@ -8520,6 +8578,8 @@
 "Waco, TX","Granbury, TX",1.0832995608325087
 "Granbury, TX","Weatherford, TX",0.316728356798074
 "Weatherford, TX","Granbury, TX",0.316728356798074
+"Grand Forks, ND","Jamestown, ND",1.9595683341491137
+"Jamestown, ND","Grand Forks, ND",1.9595683341491137
 "Grand Forks, ND","Wahpeton, ND",1.7144311710885223
 "Wahpeton, ND","Grand Forks, ND",1.7144311710885223
 "Grand Island, NE","Hastings, NE",0.3431050633552599
@@ -8536,8 +8596,6 @@
 "Montrose, CO","Grand Junction, CO",0.9055811882432375
 "Grand Junction, CO","Rifle, CO",0.9087919405452596
 "Rifle, CO","Grand Junction, CO",0.9087919405452596
-"Grand Junction, CO","Vernal, UT",1.6892669703158174
-"Vernal, UT","Grand Junction, CO",1.6892669703158174
 "Grand Rapids, MI","Holland, MI",0.47154423090518693
 "Holland, MI","Grand Rapids, MI",0.47154423090518693
 "Grand Rapids, MI","Ionia, MI",0.6079888485819874
@@ -8552,8 +8610,6 @@
 "Whitehall, MI","Grand Rapids, MI",0.802480031215716
 "Grandview, WA","Hermiston, OR",0.7395485785936796
 "Hermiston, OR","Grandview, WA",0.7395485785936796
-"Grandview, WA","Hood River, OR",1.6999791275483618
-"Hood River, OR","Grandview, WA",1.6999791275483618
 "Grandview, WA","Kennewick, WA",0.7857187683261605
 "Kennewick, WA","Grandview, WA",0.7857187683261605
 "Grandview, WA","Moses Lake, WA",1.0755180458272084
@@ -8564,8 +8620,6 @@
 "Pendleton, OR","Grandview, WA",1.2586569674855685
 "Grandview, WA","Sunnyside, WA",0.12770113742643083
 "Sunnyside, WA","Grandview, WA",0.12770113742643083
-"Grandview, WA","The Dalles, OR",1.4395902820247637
-"The Dalles, OR","Grandview, WA",1.4395902820247637
 "Grandview, WA","Toppenish, WA",0.4286068395394876
 "Toppenish, WA","Grandview, WA",0.4286068395394876
 "Grandview, WA","Wenatchee, WA",1.2272777902740855
@@ -8576,8 +8630,8 @@
 "Los Alamos, NM","Grants, NM",1.7086337992677376
 "Grants, NM","Los Lunas, NM",1.1576158694489314
 "Los Lunas, NM","Grants, NM",1.1576158694489314
-"Grants Pass, OR","Klamath Falls, OR",1.55797987464539
-"Klamath Falls, OR","Grants Pass, OR",1.55797987464539
+"Grants, NM","Santa Fe, NM",1.9867561473920685
+"Santa Fe, NM","Grants, NM",1.9867561473920685
 "Grants Pass, OR","Medford, OR",0.46461475062677077
 "Medford, OR","Grants Pass, OR",0.46461475062677077
 "Grants Pass, OR","Roseburg, OR",0.7676697480036798
@@ -8612,6 +8666,8 @@
 "Salina, KS","Great Bend, KS",1.2490877929513033
 "Great Bend, KS","Wichita, KS",1.5824130889246883
 "Wichita, KS","Great Bend, KS",1.5824130889246883
+"Great Bend, KS","Woodward, OK",2.0336870523510164
+"Woodward, OK","Great Bend, KS",2.0336870523510164
 "Great Falls, MT","Helena, MT",1.1629879320096066
 "Helena, MT","Great Falls, MT",1.1629879320096066
 "Greeley, CO","Johnstown, CO",0.22957158578532438
@@ -8692,6 +8748,8 @@
 "Springfield, MA","Greenfield, MA",0.4864158801889688
 "Greenfield, MA","Worcester, MA",0.8597001375479744
 "Worcester, MA","Greenfield, MA",0.8597001375479744
+"Green River, WY","Riverton, WY",1.8484845664760323
+"Riverton, WY","Green River, WY",1.8484845664760323
 "Green River, WY","Rock Springs, WY",0.2509395022709436
 "Rock Springs, WY","Green River, WY",0.2509395022709436
 "Green River, WY","Vernal, UT",1.0749137671925038
@@ -8954,6 +9012,8 @@
 "Jerome, ID","Hailey, ID",0.8215094031111746
 "Hailey, ID","Mountain Home, ID",1.4310725399154804
 "Mountain Home, ID","Hailey, ID",1.4310725399154804
+"Hailey, ID","Pocatello, ID",1.9745767608274951
+"Pocatello, ID","Hailey, ID",1.9745767608274951
 "Hailey, ID","Twin Falls, ID",0.9769602857844285
 "Twin Falls, ID","Hailey, ID",0.9769602857844285
 "Haleiwa, HI","Kailua (Honolulu County), HI",0.41257976996574863
@@ -9122,6 +9182,8 @@
 "York, PA","Harrisburg, PA",0.3349054998055568
 "Harrison, AR","Mountain Home, AR",0.7325421656805804
 "Mountain Home, AR","Harrison, AR",0.7325421656805804
+"Harrison, AR","Pittsburg, KS",1.985131595134198
+"Pittsburg, KS","Harrison, AR",1.985131595134198
 "Harrison, AR","Russellville, AR",0.9506630128494936
 "Russellville, AR","Harrison, AR",0.9506630128494936
 "Harrison, AR","Springfield, MO",0.997010806962513
@@ -9206,6 +9268,8 @@
 "St. Peter, MN","Hastings, MN",1.1831846383806293
 "Hastings, MN","Waconia, MN",0.9437070249818049
 "Waconia, MN","Hastings, MN",0.9437070249818049
+"Hastings, NE","Hays, KS",1.9554908081604205
+"Hays, KS","Hastings, NE",1.9554908081604205
 "Hastings, NE","Kearney, NE",0.7005091189270759
 "Kearney, NE","Hastings, NE",0.7005091189270759
 "Hastings, NE","Lexington, NE",1.3606941132377732
@@ -9214,6 +9278,8 @@
 "Lincoln, NE","Hastings, NE",1.7004763334136914
 "Hastings, NE","Norfolk, NE",1.748422974511651
 "Norfolk, NE","Hastings, NE",1.748422974511651
+"Hastings, NE","Salina, KS",1.9126368898721984
+"Salina, KS","Hastings, NE",1.9126368898721984
 "Hattiesburg, MS","Jackson, MS",1.3173793599415609
 "Jackson, MS","Hattiesburg, MS",1.3173793599415609
 "Hattiesburg, MS","Laurel, MS",0.4008711286685856
@@ -9248,6 +9314,10 @@
 "Kailua (Hawaii County), HI","Hawaiian Paradise Park, HI",0.10127178844461973
 "Hays, KS","Hutchinson, KS",1.619789735552131
 "Hutchinson, KS","Hays, KS",1.619789735552131
+"Hays, KS","Kearney, NE",1.8461985392963636
+"Kearney, NE","Hays, KS",1.8461985392963636
+"Hays, KS","Lexington, NE",1.9494225633761204
+"Lexington, NE","Hays, KS",1.9494225633761204
 "Hays, KS","McPherson, KS",1.7409602138187892
 "McPherson, KS","Hays, KS",1.7409602138187892
 "Hays, KS","Salina, KS",1.7234827355387063
@@ -9292,6 +9362,8 @@
 "Salt Lake City, UT","Heber, UT",0.5383517702209506
 "Heber, UT","Tooele, UT",0.8856671580791374
 "Tooele, UT","Heber, UT",0.8856671580791374
+"Helena, MT","Missoula, MT",1.9957694457025652
+"Missoula, MT","Helena, MT",1.9957694457025652
 "Helena-West Helena, AR","Indianola, MS",1.0796587568301381
 "Indianola, MS","Helena-West Helena, AR",1.0796587568301381
 "Helena-West Helena, AR","Jonesboro, AR",1.3112089564215184
@@ -9376,8 +9448,6 @@
 "Toppenish, WA","Hermiston, OR",1.1547024746660701
 "Hermiston, OR","Walla Walla, WA",0.9744342402132751
 "Walla Walla, WA","Hermiston, OR",0.9744342402132751
-"Hermiston, OR","Yakima, WA",1.4375468230635218
-"Yakima, WA","Hermiston, OR",1.4375468230635218
 "Hibbing, MN","Virginia, MN",0.42127959979095436
 "Virginia, MN","Hibbing, MN",0.42127959979095436
 "Hickory, NC","Lincolnton, NC",0.275004747595406
@@ -9508,36 +9578,14 @@
 "Tampa, FL","Homosassa Springs, FL",0.8669161623248364
 "Homosassa Springs, FL","Zephyrhills, FL",0.6935751412067679
 "Zephyrhills, FL","Homosassa Springs, FL",0.6935751412067679
-"Hood River, OR","Longview, WA",1.5049840477892005
-"Longview, WA","Hood River, OR",1.5049840477892005
-"Hood River, OR","McMinnville, OR",1.7607795666976542
-"McMinnville, OR","Hood River, OR",1.7607795666976542
-"Hood River, OR","Newberg, OR",1.5207505658062483
-"Newberg, OR","Hood River, OR",1.5207505658062483
 "Hood River, OR","Portland, OR",1.1814502332303125
 "Portland, OR","Hood River, OR",1.1814502332303125
-"Hood River, OR","Prineville, OR",1.5561131532764652
-"Prineville, OR","Hood River, OR",1.5561131532764652
-"Hood River, OR","Redmond, OR",1.4747942446321185
-"Redmond, OR","Hood River, OR",1.4747942446321185
 "Hood River, OR","St. Helens, OR",1.3050155171874116
 "St. Helens, OR","Hood River, OR",1.3050155171874116
-"Hood River, OR","Salem, OR",1.718101898753359
-"Salem, OR","Hood River, OR",1.718101898753359
-"Hood River, OR","Stayton, OR",1.5713021746627758
-"Stayton, OR","Hood River, OR",1.5713021746627758
-"Hood River, OR","Sunnyside, WA",1.622304762120846
-"Sunnyside, WA","Hood River, OR",1.622304762120846
 "Hood River, OR","The Dalles, OR",0.3444395157353301
 "The Dalles, OR","Hood River, OR",0.3444395157353301
-"Hood River, OR","Toppenish, WA",1.370571951923701
-"Toppenish, WA","Hood River, OR",1.370571951923701
-"Hood River, OR","Woodburn, OR",1.4625179118902913
-"Woodburn, OR","Hood River, OR",1.4625179118902913
 "Hood River, OR","Yakima, WA",1.3450670939771114
 "Yakima, WA","Hood River, OR",1.3450670939771114
-"Hood River, OR","Yelm, WA",1.6505139672235292
-"Yelm, WA","Hood River, OR",1.6505139672235292
 "Hopkinsville, KY","Madisonville, KY",0.46065739210396656
 "Madisonville, KY","Hopkinsville, KY",0.46065739210396656
 "Hopkinsville, KY","Mayfield, KY",1.153830443219423
@@ -9766,6 +9814,12 @@
 "Lake Placid, FL","Immokalee, FL",0.8797267349580709
 "Incline Village, NV","Lodi, CA",1.7265141959740669
 "Lodi, CA","Incline Village, NV",1.7265141959740669
+"Incline Village, NV","Manteca, CA",1.9287346663810112
+"Manteca, CA","Incline Village, NV",1.9287346663810112
+"Incline Village, NV","Merced, CA",2.0183538840599744
+"Merced, CA","Incline Village, NV",2.0183538840599744
+"Incline Village, NV","Modesto, CA",1.916627159256574
+"Modesto, CA","Incline Village, NV",1.916627159256574
 "Incline Village, NV","Oroville, CA",1.6160122664447831
 "Oroville, CA","Incline Village, NV",1.6160122664447831
 "Incline Village, NV","Paradise, CA",1.7203979471331585
@@ -9780,10 +9834,16 @@
 "Sonora, CA","Incline Village, NV",1.3350041440010263
 "Incline Village, NV","South Lake Tahoe, CA",0.34185128491786904
 "South Lake Tahoe, CA","Incline Village, NV",0.34185128491786904
+"Incline Village, NV","Stockton, CA",1.8565487906327303
+"Stockton, CA","Incline Village, NV",1.8565487906327303
 "Incline Village, NV","Susanville, CA",1.3533425267093695
 "Susanville, CA","Incline Village, NV",1.3533425267093695
 "Incline Village, NV","Truckee, CA",0.26164150626382343
 "Truckee, CA","Incline Village, NV",0.26164150626382343
+"Incline Village, NV","Turlock, CA",1.9655777025851575
+"Turlock, CA","Incline Village, NV",1.9655777025851575
+"Incline Village, NV","Woodland, CA",1.8995095777857867
+"Woodland, CA","Incline Village, NV",1.8995095777857867
 "Incline Village, NV","Yuba City, CA",1.661735732600129
 "Yuba City, CA","Incline Village, NV",1.661735732600129
 "Indiana, PA","Johnstown, PA",0.37567838585681035
@@ -10118,6 +10178,8 @@
 "Laramie, WY","Johnstown, CO",1.1904951359833287
 "Johnstown, CO","Longmont, CO",0.258905140350695
 "Longmont, CO","Johnstown, CO",0.258905140350695
+"Johnstown, CO","Scottsbluff, NE",1.9689519192199643
+"Scottsbluff, NE","Johnstown, CO",1.9689519192199643
 "Johnstown, CO","Woodland Park, CO",1.3499499613318695
 "Woodland Park, CO","Johnstown, CO",1.3499499613318695
 "Johnstown, PA","Kittanning, PA",0.7736844447188834
@@ -10138,6 +10200,8 @@
 "Poplar Bluff, MO","Jonesboro, AR",0.9730392761343446
 "Jonesboro, AR","Searcy, AR",1.1887499060777624
 "Searcy, AR","Jonesboro, AR",1.1887499060777624
+"Joplin, MO","Lawrence, KS",2.021886347003701
+"Lawrence, KS","Joplin, MO",2.021886347003701
 "Joplin, MO","Miami, OK",0.4206714234411441
 "Miami, OK","Joplin, MO",0.4206714234411441
 "Joplin, MO","Neosho, MO",0.26213281080403994
@@ -10168,6 +10232,8 @@
 "Yauco, PR","Juana Díaz, PR",0.3533156311850878
 "Junction City, KS","Lawrence, KS",1.5952349841010574
 "Lawrence, KS","Junction City, KS",1.5952349841010574
+"Junction City, KS","Leavenworth, KS",1.9368332526317111
+"Leavenworth, KS","Junction City, KS",1.9368332526317111
 "Junction City, KS","Lincoln, NE",1.789602949036486
 "Lincoln, NE","Junction City, KS",1.789602949036486
 "Junction City, KS","McPherson, KS",1.0639731388526776
@@ -10226,10 +10292,14 @@
 "Leavenworth, KS","Kansas City, MO",0.3966592915841087
 "Kansas City, MO","Lee's Summit, MO",0.2807878462469458
 "Lee's Summit, MO","Kansas City, MO",0.2807878462469458
+"Kansas City, MO","Manhattan, KS",1.9801649046985814
+"Manhattan, KS","Kansas City, MO",1.9801649046985814
 "Kansas City, MO","Maryville, MO",1.2773268980570618
 "Maryville, MO","Kansas City, MO",1.2773268980570618
 "Kansas City, MO","Ottawa, KS",0.8453412861087516
 "Ottawa, KS","Kansas City, MO",0.8453412861087516
+"Kansas City, MO","Parsons, KS",1.887836132533733
+"Parsons, KS","Kansas City, MO",1.887836132533733
 "Kansas City, MO","Pittsburg, KS",1.6970807000552206
 "Pittsburg, KS","Kansas City, MO",1.6970807000552206
 "Kansas City, MO","St. Joseph, MO",0.7171390013100758
@@ -10256,8 +10326,6 @@
 "North Adams, MA","Keene, NH",0.866478128518004
 "Keene, NH","Rutland, VT",0.9684998760970838
 "Rutland, VT","Keene, NH",0.9684998760970838
-"Keene, NH","Sanford, ME",1.5903258145738333
-"Sanford, ME","Keene, NH",1.5903258145738333
 "Keene, NH","Springfield, MA",0.8875133385476807
 "Springfield, MA","Keene, NH",0.8875133385476807
 "Keene, NH","Worcester, MA",0.8232227716116657
@@ -10516,8 +10584,6 @@
 "Weirton, WV","Kittanning, PA",1.1408343978860838
 "Klamath Falls, OR","Medford, OR",1.098083651139614
 "Medford, OR","Klamath Falls, OR",1.098083651139614
-"Klamath Falls, OR","Redding, CA",1.7464564920146253
-"Redding, CA","Klamath Falls, OR",1.7464564920146253
 "Knoxville, TN","La Follette, TN",0.4571053057010267
 "La Follette, TN","Knoxville, TN",0.4571053057010267
 "Knoxville, TN","London, KY",1.1778551449563184
@@ -10592,8 +10658,6 @@
 "Wauchula, FL","LaBelle, FL",0.8657047628955307
 "Laconia, NH","Lebanon, NH",0.7935342208751731
 "Lebanon, NH","Laconia, NH",0.7935342208751731
-"Laconia, NH","Lewiston, ME",1.374576007392846
-"Lewiston, ME","Laconia, NH",1.374576007392846
 "Laconia, NH","Manchester, NH",0.5369017624296122
 "Manchester, NH","Laconia, NH",0.5369017624296122
 "Laconia, NH","Nashua, NH",0.7692732791408058
@@ -10660,12 +10724,8 @@
 "Lewiston, ID","La Grande, OR",1.5330813032582278
 "La Grande, OR","Moscow, ID",1.779921758083781
 "Moscow, ID","La Grande, OR",1.779921758083781
-"La Grande, OR","Ontario, OR",1.7254432206537407
-"Ontario, OR","La Grande, OR",1.7254432206537407
 "La Grande, OR","Pendleton, OR",0.7706162599504377
 "Pendleton, OR","La Grande, OR",0.7706162599504377
-"La Grande, OR","Pullman, WA",1.672708590998425
-"Pullman, WA","La Grande, OR",1.672708590998425
 "La Grande, OR","Walla Walla, WA",0.7810984781063187
 "Walla Walla, WA","La Grande, OR",0.7810984781063187
 "LaGrange, GA","Sylacauga, AL",1.2260962068695527
@@ -10736,6 +10796,8 @@
 "Whitewater, WI","Lake Geneva, WI",0.3877082579724351
 "Lake Geneva, WI","Woodstock, IL",0.27826669294038686
 "Woodstock, IL","Lake Geneva, WI",0.27826669294038686
+"Lake Havasu City, AZ","Las Vegas, NV",1.8739135297552703
+"Las Vegas, NV","Lake Havasu City, AZ",1.8739135297552703
 "Lake Jackson, TX","Port Lavaca, TX",1.2494091455164185
 "Port Lavaca, TX","Lake Jackson, TX",1.2494091455164185
 "Lake Jackson, TX","Texas City, TX",0.6326814090045428
@@ -10802,6 +10864,8 @@
 "Midland, TX","Lamesa, TX",0.7466870485685614
 "Lamesa, TX","Odessa, TX",0.9832627323864318
 "Odessa, TX","Lamesa, TX",0.9832627323864318
+"Lamesa, TX","Portales, NM",2.0055472849075064
+"Portales, NM","Lamesa, TX",2.0055472849075064
 "Lamesa, TX","Snyder, TX",1.0341419832885412
 "Snyder, TX","Lamesa, TX",1.0341419832885412
 "Lancaster, OH","London, OH",0.8615375210633521
@@ -10872,6 +10936,8 @@
 "South Lyon, MI","Lapeer, MI",0.681623087050317
 "Laramie, WY","Longmont, CO",1.2472029812744894
 "Longmont, CO","Laramie, WY",1.2472029812744894
+"Laramie, WY","Scottsbluff, NE",2.0049217551315737
+"Scottsbluff, NE","Laramie, WY",2.0049217551315737
 "Laramie, WY","Silverthorne, CO",1.7419901708103587
 "Silverthorne, CO","Laramie, WY",1.7419901708103587
 "Laramie, WY","Steamboat Springs, CO",1.493272374384516
@@ -10894,6 +10960,8 @@
 "Mesquite, NV","Las Vegas, NV",1.2455680721662448
 "Las Vegas, NV","Pahrump, NV",0.8524176497468969
 "Pahrump, NV","Las Vegas, NV",0.8524176497468969
+"Las Vegas, NV","St. George, UT",1.8137882512851333
+"St. George, UT","Las Vegas, NV",1.8137882512851333
 "Laurel, MS","Meridian, MS",0.7957900713127857
 "Meridian, MS","Laurel, MS",0.7957900713127857
 "Laurel, MS","Picayune, MS",1.2907590534642868
@@ -10932,6 +11000,8 @@
 "Pittsburg, KS","Lawrence, KS",1.6502239539226342
 "Lawrence, KS","St. Joseph, MO",0.8798712820634407
 "St. Joseph, MO","Lawrence, KS",0.8798712820634407
+"Lawrence, KS","Sedalia, MO",2.02517831916108
+"Sedalia, MO","Lawrence, KS",2.02517831916108
 "Lawrence, KS","Topeka, KS",0.4416253662324584
 "Topeka, KS","Lawrence, KS",0.4416253662324584
 "Lawrence, KS","Warrensburg, MO",1.508545200814407
@@ -11026,6 +11096,10 @@
 "Maryville, MO","Leavenworth, KS",1.028709495095696
 "Leavenworth, KS","Ottawa, KS",0.7936102370811542
 "Ottawa, KS","Leavenworth, KS",0.7936102370811542
+"Leavenworth, KS","Parsons, KS",2.0085847144942583
+"Parsons, KS","Leavenworth, KS",2.0085847144942583
+"Leavenworth, KS","Pittsburg, KS",1.9205183919192172
+"Pittsburg, KS","Leavenworth, KS",1.9205183919192172
 "Leavenworth, KS","St. Joseph, MO",0.45091618023751356
 "St. Joseph, MO","Leavenworth, KS",0.45091618023751356
 "Leavenworth, KS","Sedalia, MO",1.794087564473945
@@ -11052,8 +11126,6 @@
 "West Plains, MO","Lebanon, MO",1.2444039087049306
 "Lebanon, OR","Lincoln City, OR",1.178188206357543
 "Lincoln City, OR","Lebanon, OR",1.178188206357543
-"Lebanon, OR","Longview, WA",1.6105086581574597
-"Longview, WA","Lebanon, OR",1.6105086581574597
 "Lebanon, OR","McMinnville, OR",0.7330193068398924
 "McMinnville, OR","Lebanon, OR",0.7330193068398924
 "Lebanon, OR","Monmouth, OR",0.45388562050364123
@@ -11064,10 +11136,6 @@
 "Newport, OR","Lebanon, OR",1.1545066729993252
 "Lebanon, OR","Portland, OR",1.0019883223371975
 "Portland, OR","Lebanon, OR",1.0019883223371975
-"Lebanon, OR","Redmond, OR",1.7512125470370656
-"Redmond, OR","Lebanon, OR",1.7512125470370656
-"Lebanon, OR","Roseburg, OR",1.3959128242479462
-"Roseburg, OR","Lebanon, OR",1.3959128242479462
 "Lebanon, OR","St. Helens, OR",1.3309136916419575
 "St. Helens, OR","Lebanon, OR",1.3309136916419575
 "Lebanon, OR","Salem, OR",0.41930324325006757
@@ -11116,8 +11184,6 @@
 "Tullahoma, TN","Lebanon, TN",0.8490055427969876
 "Lebanon, NH","Rutland, VT",0.7255828488188237
 "Rutland, VT","Lebanon, NH",0.7255828488188237
-"Lebanon, NH","Sanford, ME",1.4959577609678805
-"Sanford, ME","Lebanon, NH",1.4959577609678805
 "Leesburg, FL","Marion Oaks, FL",0.37216010170353486
 "Marion Oaks, FL","Leesburg, FL",0.37216010170353486
 "Leesburg, FL","Ocala, FL",0.45945905084129346
@@ -11204,14 +11270,16 @@
 "Winchester, TN","Lewisburg, TN",0.7259875111873983
 "Lewiston, ID","Moscow, ID",0.3140627219203358
 "Moscow, ID","Lewiston, ID",0.3140627219203358
+"Lewiston, ID","Pendleton, OR",1.9205516879532043
+"Pendleton, OR","Lewiston, ID",1.9205516879532043
 "Lewiston, ID","Pullman, WA",0.35215955588341086
 "Pullman, WA","Lewiston, ID",0.35215955588341086
+"Lewiston, ID","Sandpoint, ID",1.9126729950516907
+"Sandpoint, ID","Lewiston, ID",1.9126729950516907
 "Lewiston, ID","Spokane, WA",1.300062811482599
 "Spokane, WA","Lewiston, ID",1.300062811482599
 "Lewiston, ID","Walla Walla, WA",1.3704919248576364
 "Walla Walla, WA","Lewiston, ID",1.3704919248576364
-"Lewiston, ME","Manchester, NH",1.6660353019069032
-"Manchester, NH","Lewiston, ME",1.6660353019069032
 "Lewiston, ME","Portland, ME",0.4410794754916722
 "Portland, ME","Lewiston, ME",0.4410794754916722
 "Lewiston, ME","Portsmouth, NH",1.1676069882028361
@@ -11300,14 +11368,16 @@
 "Taylorville, IL","Lincoln, IL",0.6034773818462587
 "Lincoln, NE","Manhattan, KS",1.6412685178544235
 "Manhattan, KS","Lincoln, NE",1.6412685178544235
+"Lincoln, NE","Maryville, MO",1.892704019544541
+"Maryville, MO","Lincoln, NE",1.892704019544541
 "Lincoln, NE","Norfolk, NE",1.4076429112882178
 "Norfolk, NE","Lincoln, NE",1.4076429112882178
 "Lincoln, NE","Omaha, NE",0.8878136094924327
 "Omaha, NE","Lincoln, NE",0.8878136094924327
 "Lincoln, NE","Sioux City, IA",1.7104350651222804
 "Sioux City, IA","Lincoln, NE",1.7104350651222804
-"Lincoln City, OR","Longview, WA",1.6183664505914925
-"Longview, WA","Lincoln City, OR",1.6183664505914925
+"Lincoln, NE","Vermillion, SD",1.9853484768422593
+"Vermillion, SD","Lincoln, NE",1.9853484768422593
 "Lincoln City, OR","McMinnville, OR",0.8648274363131803
 "McMinnville, OR","Lincoln City, OR",0.8648274363131803
 "Lincoln City, OR","Monmouth, OR",0.7849168239374607
@@ -11316,10 +11386,6 @@
 "Newberg, OR","Lincoln City, OR",1.105912592793845
 "Lincoln City, OR","Newport, OR",0.3004835416457955
 "Newport, OR","Lincoln City, OR",0.3004835416457955
-"Lincoln City, OR","Portland, OR",1.4626937794699517
-"Portland, OR","Lincoln City, OR",1.4626937794699517
-"Lincoln City, OR","St. Helens, OR",1.529434243176231
-"St. Helens, OR","Lincoln City, OR",1.529434243176231
 "Lincoln City, OR","Salem, OR",0.9738751592478707
 "Salem, OR","Lincoln City, OR",0.9738751592478707
 "Lincoln City, OR","Stayton, OR",1.2299793182814518
@@ -11446,6 +11512,8 @@
 "Patterson, CA","Lodi, CA",0.6733152629341038
 "Lodi, CA","Placerville, CA",0.7617440468425091
 "Placerville, CA","Lodi, CA",0.7617440468425091
+"Lodi, CA","Reno, NV",2.022465107362786
+"Reno, NV","Lodi, CA",2.022465107362786
 "Lodi, CA","Sacramento, CA",0.4981983104146186
 "Sacramento, CA","Lodi, CA",0.4981983104146186
 "Lodi, CA","Stockton, CA",0.1770813544673604
@@ -11464,8 +11532,6 @@
 "Park City, UT","Logan, UT",1.1448640110074526
 "Logan, UT","Pocatello, ID",1.2939537515691744
 "Pocatello, ID","Logan, UT",1.2939537515691744
-"Logan, UT","Provo, UT",1.5123402623087416
-"Provo, UT","Logan, UT",1.5123402623087416
 "Logan, UT","Salt Lake City, UT",0.9780588530349481
 "Salt Lake City, UT","Logan, UT",0.9780588530349481
 "Logan, UT","Tooele, UT",1.289104292832816
@@ -11642,6 +11708,8 @@
 "Turlock, CA","Los Banos, CA",0.43390085226926556
 "Los Lunas, NM","Santa Fe, NM",1.1923783376093668
 "Santa Fe, NM","Los Lunas, NM",1.1923783376093668
+"Los Lunas, NM","Taos, NM",1.9815701387788534
+"Taos, NM","Los Lunas, NM",1.9815701387788534
 "Louisville/Jefferson County, KY","Madison, IN",0.6171491942796522
 "Madison, IN","Louisville/Jefferson County, KY",0.6171491942796522
 "Louisville/Jefferson County, KY","Martinsville, IN",1.3459289072607308
@@ -11932,8 +12000,6 @@
 "Russellville, AR","Malvern, AR",0.9705122804477804
 "Manchester, NH","Nashua, NH",0.23239374884020533
 "Nashua, NH","Manchester, NH",0.23239374884020533
-"Manchester, NH","Portland, ME",1.3789874614730828
-"Portland, ME","Manchester, NH",1.3789874614730828
 "Manchester, NH","Portsmouth, NH",0.6954841166410417
 "Portsmouth, NH","Manchester, NH",0.6954841166410417
 "Manchester, NH","Sanford, ME",0.822436193877665
@@ -11972,6 +12038,8 @@
 "Topeka, KS","Manhattan, KS",0.9000295864581576
 "Manhattan, KS","Wichita, KS",1.680091940936582
 "Wichita, KS","Manhattan, KS",1.680091940936582
+"Manhattan, KS","Winfield, KS",1.9863008424959032
+"Winfield, KS","Manhattan, KS",1.9863008424959032
 "Manitowoc, WI","Marinette, WI",0.9923054147791512
 "Marinette, WI","Manitowoc, WI",0.9923054147791512
 "Manitowoc, WI","Milwaukee, WI",1.0934815233921173
@@ -12094,6 +12162,10 @@
 "Sioux Falls, SD","Marshall, MN",1.303345483630491
 "Marshall, MN","Spirit Lake, IA",1.2361076604001913
 "Spirit Lake, IA","Marshall, MN",1.2361076604001913
+"Marshall, MN","Vermillion, SD",2.0136339220672825
+"Vermillion, SD","Marshall, MN",2.0136339220672825
+"Marshall, MN","Wahpeton, ND",1.9887102976552686
+"Wahpeton, ND","Marshall, MN",1.9887102976552686
 "Marshall, MN","Watertown, SD",1.3895579099123934
 "Watertown, SD","Marshall, MN",1.3895579099123934
 "Marshall, MN","Willmar, MN",0.9972716264388309
@@ -12282,8 +12354,6 @@
 "Twentynine Palms, CA","Mecca, CA",0.5639737686275538
 "Mecca, CA","Yucca Valley, CA",0.6483171511690954
 "Yucca Valley, CA","Mecca, CA",0.6483171511690954
-"Medford, OR","Redding, CA",1.8019167808752834
-"Redding, CA","Medford, OR",1.8019167808752834
 "Medford, OR","Roseburg, OR",1.003025625046541
 "Roseburg, OR","Medford, OR",1.003025625046541
 "Memphis, TN","Oxford, MS",0.9479536084113168
@@ -12334,6 +12404,8 @@
 "Wausau, WI","Merrill, WI",0.23032624969815163
 "Merrill, WI","Wisconsin Rapids, WI",0.797247724675321
 "Wisconsin Rapids, WI","Merrill, WI",0.797247724675321
+"Mesquite, NV","Pahrump, NV",2.013224281594053
+"Pahrump, NV","Mesquite, NV",2.013224281594053
 "Mesquite, NV","St. George, UT",0.5683360390649391
 "St. George, UT","Mesquite, NV",0.5683360390649391
 "Mexico, MO","Moberly, MO",0.6027696486220968
@@ -12510,6 +12582,8 @@
 "Riverside, CA","Mission Viejo, CA",0.47182919801556056
 "Mitchell, SD","Norfolk, NE",1.7800143227794287
 "Norfolk, NE","Mitchell, SD",1.7800143227794287
+"Mitchell, SD","Sioux City, IA",2.0076020945396658
+"Sioux City, IA","Mitchell, SD",2.0076020945396658
 "Mitchell, SD","Sioux Falls, SD",1.3067893238391364
 "Sioux Falls, SD","Mitchell, SD",1.3067893238391364
 "Mitchell, SD","Vermillion, SD",1.431619381295163
@@ -12556,8 +12630,6 @@
 "Newport, OR","Monmouth, OR",0.8486135672377951
 "Monmouth, OR","Portland, OR",0.8689273859189983
 "Portland, OR","Monmouth, OR",0.8689273859189983
-"Monmouth, OR","Roseburg, OR",1.6411037332234508
-"Roseburg, OR","Monmouth, OR",1.6411037332234508
 "Monmouth, OR","St. Helens, OR",1.1029443199454698
 "St. Helens, OR","Monmouth, OR",1.1029443199454698
 "Monmouth, OR","Salem, OR",0.21095502861984888
@@ -12690,8 +12762,6 @@
 "Walla Walla, WA","Moscow, ID",1.4964586736024816
 "Moses Lake, WA","Othello, WA",0.3226484929454667
 "Othello, WA","Moses Lake, WA",0.3226484929454667
-"Moses Lake, WA","Pendleton, OR",1.540416475794783
-"Pendleton, OR","Moses Lake, WA",1.540416475794783
 "Moses Lake, WA","Sunnyside, WA",1.090657536076308
 "Sunnyside, WA","Moses Lake, WA",1.090657536076308
 "Moses Lake, WA","Toppenish, WA",1.2829320748972166
@@ -12912,8 +12982,6 @@
 "Vallejo, CA","Napa, CA",0.20048739910525454
 "Napa, CA","Woodland, CA",0.6375015050962763
 "Woodland, CA","Napa, CA",0.6375015050962763
-"Nashua, NH","Portland, ME",1.5064023443954322
-"Portland, ME","Nashua, NH",1.5064023443954322
 "Nashua, NH","Portsmouth, NH",0.7592499489627887
 "Portsmouth, NH","Nashua, NH",0.7592499489627887
 "Nashua, NH","Sanford, ME",0.9693694293199147
@@ -12936,6 +13004,8 @@
 "Ruston, LA","Natchitoches, LA",0.8900296739435348
 "Natchitoches, LA","Shreveport, LA",1.001936412403476
 "Shreveport, LA","Natchitoches, LA",1.001936412403476
+"Neosho, MO","Ottawa, KS",1.9608394887139833
+"Ottawa, KS","Neosho, MO",1.9608394887139833
 "Neosho, MO","Parsons, KS",1.0101063814272413
 "Parsons, KS","Neosho, MO",1.0101063814272413
 "Neosho, MO","Pittsburg, KS",0.6397459991278023
@@ -12958,14 +13028,10 @@
 "Zanesville, OH","Newark, OH",0.42008373986625774
 "New Bedford, MA","Providence, RI",0.5158287069366938
 "Providence, RI","New Bedford, MA",0.5158287069366938
-"New Bedford, MA","Sanford, ME",1.8067029886785622
-"Sanford, ME","New Bedford, MA",1.8067029886785622
 "New Bedford, MA","Vineyard Haven, MA",0.37578852137872476
 "Vineyard Haven, MA","New Bedford, MA",0.37578852137872476
 "Newberg, OR","Newport, OR",1.2716359867902418
 "Newport, OR","Newberg, OR",1.2716359867902418
-"Newberg, OR","Olympia, WA",1.741263433257584
-"Olympia, WA","Newberg, OR",1.741263433257584
 "Newberg, OR","Portland, OR",0.36700076757416017
 "Portland, OR","Newberg, OR",0.36700076757416017
 "Newberg, OR","St. Helens, OR",0.5884951745766376
@@ -12976,8 +13042,6 @@
 "Stayton, OR","Newberg, OR",0.5297325552578774
 "Newberg, OR","Woodburn, OR",0.19627432740938885
 "Woodburn, OR","Newberg, OR",0.19627432740938885
-"Newberg, OR","Yelm, WA",1.6828509196598478
-"Yelm, WA","Newberg, OR",1.6828509196598478
 "New Bern, NC","Swansboro, NC",0.42489097201518317
 "Swansboro, NC","New Bern, NC",0.42489097201518317
 "New Bern, NC","Washington, NC",0.43726168755105277
@@ -13054,12 +13118,6 @@
 "Wooster, OH","New Philadelphia, OH",0.5815566438447878
 "New Philadelphia, OH","Zanesville, OH",0.7808121466780584
 "Zanesville, OH","New Philadelphia, OH",0.7808121466780584
-"Newport, OR","Portland, OR",1.6381076006477993
-"Portland, OR","Newport, OR",1.6381076006477993
-"Newport, OR","Roseburg, OR",1.590782340013876
-"Roseburg, OR","Newport, OR",1.590782340013876
-"Newport, OR","St. Helens, OR",1.7556864825475038
-"St. Helens, OR","Newport, OR",1.7556864825475038
 "Newport, OR","Salem, OR",1.0575278455908694
 "Salem, OR","Newport, OR",1.0575278455908694
 "Newport, OR","Stayton, OR",1.2746959547280576
@@ -13078,6 +13136,10 @@
 "Ponca City, OK","Newton, KS",1.3756428702973904
 "Newton, KS","Salina, KS",0.8305178188334983
 "Salina, KS","Newton, KS",0.8305178188334983
+"Newton, KS","Stillwater, OK",1.9577172266698963
+"Stillwater, OK","Newton, KS",1.9577172266698963
+"Newton, KS","Topeka, KS",1.9478461650243768
+"Topeka, KS","Newton, KS",1.9478461650243768
 "Newton, KS","Wichita, KS",0.3659246404658027
 "Wichita, KS","Newton, KS",0.3659246404658027
 "Newton, KS","Winfield, KS",0.883839395365482
@@ -13298,6 +13360,10 @@
 "Stillwater, OK","Oklahoma City, OK",0.7933383250543122
 "Oklahoma City, OK","Weatherford, OK",1.1872396053451142
 "Weatherford, OK","Oklahoma City, OK",1.1872396053451142
+"Oklahoma City, OK","Winfield, KS",1.8447254505752304
+"Winfield, KS","Oklahoma City, OK",1.8447254505752304
+"Okmulgee, OK","Parsons, KS",1.8612705264146603
+"Parsons, KS","Okmulgee, OK",1.8612705264146603
 "Okmulgee, OK","Shawnee, OK",0.9920670332694678
 "Shawnee, OK","Okmulgee, OK",0.9920670332694678
 "Okmulgee, OK","Stillwater, OK",1.1894929876632105
@@ -13306,12 +13372,12 @@
 "Tahlequah, OK","Okmulgee, OK",1.0438658094793511
 "Okmulgee, OK","Tulsa, OK",0.5271316679919423
 "Tulsa, OK","Okmulgee, OK",0.5271316679919423
+"Okmulgee, OK","Winfield, KS",1.9127847889660667
+"Winfield, KS","Okmulgee, OK",1.9127847889660667
 "Olean, NY","Warren, PA",0.7525192614810663
 "Warren, PA","Olean, NY",0.7525192614810663
 "Olympia, WA","Port Angeles, WA",1.2065643933085481
 "Port Angeles, WA","Olympia, WA",1.2065643933085481
-"Olympia, WA","Portland, OR",1.5429679626615456
-"Portland, OR","Olympia, WA",1.5429679626615456
 "Olympia, WA","St. Helens, OR",1.1786412696406166
 "St. Helens, OR","Olympia, WA",1.1786412696406166
 "Olympia, WA","Seattle, WA",0.7963588162379996
@@ -13324,10 +13390,14 @@
 "Snoqualmie, WA","Olympia, WA",1.1734429835317906
 "Olympia, WA","Yelm, WA",0.30045662748557217
 "Yelm, WA","Olympia, WA",0.30045662748557217
+"Omaha, NE","St. Joseph, MO",1.8460073137720616
+"St. Joseph, MO","Omaha, NE",1.8460073137720616
 "Omaha, NE","Sioux City, IA",1.3291510705709695
 "Sioux City, IA","Omaha, NE",1.3291510705709695
 "Omaha, NE","Storm Lake, IA",1.5713236747723693
 "Storm Lake, IA","Omaha, NE",1.5713236747723693
+"Omaha, NE","Vermillion, SD",1.8177746101483638
+"Vermillion, SD","Omaha, NE",1.8177746101483638
 "Oneida, NY","Oneonta, NY",0.8770902751712285
 "Oneonta, NY","Oneida, NY",0.8770902751712285
 "Oneida, NY","Rome, NY",0.23303653361646479
@@ -13536,6 +13606,8 @@
 "St. Augustine, FL","Palm Coast, FL",0.3554018697193212
 "Paradise, CA","Red Bluff, CA",0.7592982416020817
 "Red Bluff, CA","Paradise, CA",0.7592982416020817
+"Paradise, CA","Reno, NV",1.8080187255943925
+"Reno, NV","Paradise, CA",1.8080187255943925
 "Paradise, CA","Yuba City, CA",0.6099504269200788
 "Yuba City, CA","Paradise, CA",0.6099504269200788
 "Paragould, AR","Poplar Bluff, MO",0.7063262779339526
@@ -13590,8 +13662,12 @@
 "Visalia, CA","Parlier, CA",0.37949042385807197
 "Parsons, KS","Pittsburg, KS",0.5579959874407753
 "Pittsburg, KS","Parsons, KS",0.5579959874407753
+"Parsons, KS","Ponca City, OK",1.9290723721519836
+"Ponca City, OK","Parsons, KS",1.9290723721519836
 "Parsons, KS","Siloam Springs, AR",1.3568302166815025
 "Siloam Springs, AR","Parsons, KS",1.3568302166815025
+"Parsons, KS","Springfield, MO",1.971193803663127
+"Springfield, MO","Parsons, KS",1.971193803663127
 "Parsons, KS","Tahlequah, OK",1.4572586502402258
 "Tahlequah, OK","Parsons, KS",1.4572586502402258
 "Parsons, KS","Topeka, KS",1.757922210167455
@@ -13642,10 +13718,6 @@
 "Tuscaloosa, AL","Pell City, AL",1.3338331459369017
 "Pell City, AL","Valley, AL",1.3314759197221706
 "Valley, AL","Pell City, AL",1.3314759197221706
-"Pendleton, OR","Sunnyside, WA",1.3860206160443702
-"Sunnyside, WA","Pendleton, OR",1.3860206160443702
-"Pendleton, OR","Toppenish, WA",1.6807924680043183
-"Toppenish, WA","Pendleton, OR",1.6807924680043183
 "Pendleton, OR","Walla Walla, WA",0.5967099766217895
 "Walla Walla, WA","Pendleton, OR",0.5967099766217895
 "Peoria, IL","Peru, IL",0.7840193414068075
@@ -13718,12 +13790,16 @@
 "Wapakoneta, OH","Piqua, OH",0.42268650321484125
 "Piqua, OH","Wilmington, OH",0.8123356941560307
 "Wilmington, OH","Piqua, OH",0.8123356941560307
+"Pittsburg, KS","Sedalia, MO",1.967473922190553
+"Sedalia, MO","Pittsburg, KS",1.967473922190553
 "Pittsburg, KS","Siloam Springs, AR",1.2329871816446505
 "Siloam Springs, AR","Pittsburg, KS",1.2329871816446505
 "Pittsburg, KS","Springfield, MO",1.427569401185076
 "Springfield, MO","Pittsburg, KS",1.427569401185076
 "Pittsburg, KS","Tahlequah, OK",1.5230547253792217
 "Tahlequah, OK","Pittsburg, KS",1.5230547253792217
+"Pittsburg, KS","Topeka, KS",1.9022824251409112
+"Topeka, KS","Pittsburg, KS",1.9022824251409112
 "Pittsburg, KS","Tulsa, OK",1.8027436591207646
 "Tulsa, OK","Pittsburg, KS",1.8027436591207646
 "Pittsburg, KS","Warrensburg, MO",1.6671879968977594
@@ -13886,16 +13962,10 @@
 "St. Helens, OR","Portland, OR",0.3757342461101536
 "Portland, OR","Salem, OR",0.685750299525999
 "Salem, OR","Portland, OR",0.685750299525999
-"Portland, OR","Shelton, WA",1.75421312174429
-"Shelton, WA","Portland, OR",1.75421312174429
 "Portland, OR","Stayton, OR",0.7190944881585906
 "Stayton, OR","Portland, OR",0.7190944881585906
-"Portland, OR","The Dalles, OR",1.4948972197445207
-"The Dalles, OR","Portland, OR",1.4948972197445207
 "Portland, OR","Woodburn, OR",0.4124711231104721
 "Woodburn, OR","Portland, OR",0.4124711231104721
-"Portland, OR","Yelm, WA",1.43222851472798
-"Yelm, WA","Portland, OR",1.43222851472798
 "Portland, TN","Springfield, TN",0.37639009192590483
 "Springfield, TN","Portland, TN",0.37639009192590483
 "Port Lavaca, TX","Robstown, TX",1.3289158474861966
@@ -13950,20 +14020,12 @@
 "West Point, NY","Poughkeepsie, NY",0.31296106626863857
 "Price, UT","Provo, UT",1.0659685952691487
 "Provo, UT","Price, UT",1.0659685952691487
-"Price, UT","Salt Lake City, UT",1.5825299248040026
-"Salt Lake City, UT","Price, UT",1.5825299248040026
-"Price, UT","Tooele, UT",1.7559259309265056
-"Tooele, UT","Price, UT",1.7559259309265056
-"Price, UT","Vernal, UT",1.540921090322286
-"Vernal, UT","Price, UT",1.540921090322286
 "Princess Anne, MD","Salisbury, MD",0.18505820543814355
 "Salisbury, MD","Princess Anne, MD",0.18505820543814355
 "Prineville, OR","Redmond, OR",0.33351380691060484
 "Redmond, OR","Prineville, OR",0.33351380691060484
 "Prineville, OR","The Dalles, OR",1.3423172448419247
 "The Dalles, OR","Prineville, OR",1.3423172448419247
-"Providence, RI","Sanford, ME",1.7358251922356522
-"Sanford, ME","Providence, RI",1.7358251922356522
 "Providence, RI","Vineyard Haven, MA",0.8893763930417762
 "Vineyard Haven, MA","Providence, RI",0.8893763930417762
 "Providence, RI","Willimantic, CT",0.8012949257919837
@@ -14040,8 +14102,6 @@
 "York, PA","Reading, PA",0.8790901544779407
 "Red Bluff, CA","Redding, CA",0.4386596370764062
 "Redding, CA","Red Bluff, CA",0.4386596370764062
-"Redmond, OR","Stayton, OR",1.703008348100467
-"Stayton, OR","Redmond, OR",1.703008348100467
 "Redmond, OR","The Dalles, OR",1.3290013890135721
 "The Dalles, OR","Redmond, OR",1.3290013890135721
 "Red Wing, MN","River Falls, WI",0.30250384228962135
@@ -14060,6 +14120,8 @@
 "Visalia, CA","Reedley, CA",0.30613520183083714
 "Reidsville, NC","Winston-Salem, NC",0.6326209263848399
 "Winston-Salem, NC","Reidsville, NC",0.6326209263848399
+"Reno, NV","Sacramento, CA",1.9267909982143923
+"Sacramento, CA","Reno, NV",1.9267909982143923
 "Reno, NV","Sonora, CA",1.6457377957924817
 "Sonora, CA","Reno, NV",1.6457377957924817
 "Reno, NV","South Lake Tahoe, CA",0.6459489143887421
@@ -14068,6 +14130,8 @@
 "Susanville, CA","Reno, NV",1.2198412731171515
 "Reno, NV","Truckee, CA",0.4466724482212681
 "Truckee, CA","Reno, NV",0.4466724482212681
+"Reno, NV","Yuba City, CA",1.8472531772337206
+"Yuba City, CA","Reno, NV",1.8472531772337206
 "Richmond, IN","Sidney, OH",0.8661200296725612
 "Sidney, OH","Richmond, IN",0.8661200296725612
 "Richmond, KY","Shelbyville, KY",1.0370436357743542
@@ -14178,10 +14242,6 @@
 "Simi Valley, CA","Rosamond, CA",0.7985567073163576
 "Rosamond, CA","Tehachapi, CA",0.3916073652269342
 "Tehachapi, CA","Rosamond, CA",0.3916073652269342
-"Roseburg, OR","Salem, OR",1.7482090002342536
-"Salem, OR","Roseburg, OR",1.7482090002342536
-"Roseburg, OR","Stayton, OR",1.6836711414346646
-"Stayton, OR","Roseburg, OR",1.6836711414346646
 "Round Lake Beach, IL","Watertown, WI",1.0409158248869248
 "Watertown, WI","Round Lake Beach, IL",1.0409158248869248
 "Round Lake Beach, IL","West Bend, WI",1.0307769033112788
@@ -14222,14 +14282,8 @@
 "Willmar, MN","St. Cloud, MN",0.9657039664928764
 "St. Helens, OR","Salem, OR",0.9605195104733304
 "Salem, OR","St. Helens, OR",0.9605195104733304
-"St. Helens, OR","Seattle, WA",1.8037934877640622
-"Seattle, WA","St. Helens, OR",1.8037934877640622
-"St. Helens, OR","Shelton, WA",1.3812657296841921
-"Shelton, WA","St. Helens, OR",1.3812657296841921
 "St. Helens, OR","Stayton, OR",1.0615096510159525
 "Stayton, OR","St. Helens, OR",1.0615096510159525
-"St. Helens, OR","The Dalles, OR",1.6441422584739578
-"The Dalles, OR","St. Helens, OR",1.6441422584739578
 "St. Helens, OR","Woodburn, OR",0.7235537282745292
 "Woodburn, OR","St. Helens, OR",0.7235537282745292
 "St. Helens, OR","Yelm, WA",1.0966228757873093
@@ -14260,6 +14314,8 @@
 "Stayton, OR","Salem, OR",0.28164296618239026
 "Salem, OR","Woodburn, OR",0.2790125138770509
 "Woodburn, OR","Salem, OR",0.2790125138770509
+"Salina, KS","Topeka, KS",1.949726180262287
+"Topeka, KS","Salina, KS",1.949726180262287
 "Salina, KS","Wichita, KS",1.185186093784448
 "Wichita, KS","Salina, KS",1.185186093784448
 "Salina, KS","Winfield, KS",1.7129740432942744
@@ -14292,10 +14348,6 @@
 "Tiffin, OH","Sandusky, OH",0.5756210053498683
 "Sandusky, OH","Toledo, OH",0.8538759480158776
 "Toledo, OH","Sandusky, OH",0.8538759480158776
-"Sanford, ME","Waterville, ME",1.5954919583627154
-"Waterville, ME","Sanford, ME",1.5954919583627154
-"Sanford, ME","Worcester, MA",1.5617972303727161
-"Worcester, MA","Sanford, ME",1.5617972303727161
 "Sanford, NC","Smithfield, NC",0.8132355270768716
 "Smithfield, NC","Sanford, NC",0.8132355270768716
 "Sanford, NC","Spout Springs, NC",0.22300848078046176
@@ -14508,6 +14560,8 @@
 "Stillwater, OK","Shawnee, OK",0.7952926316771408
 "Shawnee, OK","Tulsa, OK",1.2391735250964475
 "Tulsa, OK","Shawnee, OK",1.2391735250964475
+"Shawnee, OK","Winfield, KS",1.9094915302247295
+"Winfield, KS","Shawnee, OK",1.9094915302247295
 "Sheboygan, WI","Watertown, WI",1.1486067290417628
 "Watertown, WI","Sheboygan, WI",1.1486067290417628
 "Sheboygan, WI","Waupun, WI",1.026730005648984
@@ -14658,10 +14712,14 @@
 "Spirit Lake, IA","Spencer, IA",0.28432525951803206
 "Spencer, IA","Storm Lake, IA",0.49765175795927913
 "Storm Lake, IA","Spencer, IA",0.49765175795927913
+"Spencer, IA","Vermillion, SD",1.8183619092469254
+"Vermillion, SD","Spencer, IA",1.8183619092469254
 "Spencer, IA","Worthington, MN",0.678731708777538
 "Worthington, MN","Spencer, IA",0.678731708777538
 "Spirit Lake, IA","Storm Lake, IA",0.7818622161224628
 "Storm Lake, IA","Spirit Lake, IA",0.7818622161224628
+"Spirit Lake, IA","Vermillion, SD",1.9334884058095916
+"Vermillion, SD","Spirit Lake, IA",1.9334884058095916
 "Spirit Lake, IA","Worthington, MN",0.5535326043694841
 "Worthington, MN","Spirit Lake, IA",0.5535326043694841
 "Spout Springs, NC","Wendell, NC",0.8592149864847762
@@ -14700,8 +14758,6 @@
 "Tuscaloosa, AL","Starkville, MS",1.272543361500875
 "Statesboro, GA","Vidalia, GA",0.6704061689006138
 "Vidalia, GA","Statesboro, GA",0.6704061689006138
-"Stayton, OR","The Dalles, OR",1.7981612358461825
-"The Dalles, OR","Stayton, OR",1.7981612358461825
 "Stayton, OR","Woodburn, OR",0.3459141548130368
 "Woodburn, OR","Stayton, OR",0.3459141548130368
 "Stephenville, TX","Waco, TX",1.236205182200731
@@ -14748,8 +14804,6 @@
 "Williamsport, PA","Sunbury, PA",0.43026881887959495
 "Sunbury, PA","York, PA",0.9011030700757922
 "York, PA","Sunbury, PA",0.9011030700757922
-"Sunnyside, WA","The Dalles, OR",1.3783198979917675
-"The Dalles, OR","Sunnyside, WA",1.3783198979917675
 "Sunnyside, WA","Toppenish, WA",0.30779350902838404
 "Toppenish, WA","Sunnyside, WA",0.30779350902838404
 "Sunnyside, WA","Wenatchee, WA",1.1305151725651694
@@ -14798,8 +14852,6 @@
 "Tyler, TX","Terrell, TX",1.0553693175850833
 "The Dalles, OR","Toppenish, WA",1.1644878116150463
 "Toppenish, WA","The Dalles, OR",1.1644878116150463
-"The Dalles, OR","Woodburn, OR",1.7374286686364573
-"Woodburn, OR","The Dalles, OR",1.7374286686364573
 "The Dalles, OR","Yakima, WA",1.2096040977526898
 "Yakima, WA","The Dalles, OR",1.2096040977526898
 "Thomaston, GA","Valley, AL",0.8541870480170223
@@ -14818,6 +14870,8 @@
 "Valdosta, GA","Tifton, GA",0.6579828812363087
 "Toccoa, GA","Winder, GA",0.7055024783088935
 "Winder, GA","Toccoa, GA",0.7055024783088935
+"Topeka, KS","Warrensburg, MO",1.9499077321760698
+"Warrensburg, MO","Topeka, KS",1.9499077321760698
 "Toppenish, WA","Wenatchee, WA",1.0398889542639005
 "Wenatchee, WA","Toppenish, WA",1.0398889542639005
 "Toppenish, WA","Yakima, WA",0.3005821899248641
@@ -14898,6 +14952,8 @@
 "Willmar, MN","Waconia, MN",1.2943542296064026
 "Wahpeton, ND","Watertown, SD",1.4525012485364979
 "Watertown, SD","Wahpeton, ND",1.4525012485364979
+"Wahpeton, ND","Willmar, MN",1.926228460411693
+"Willmar, MN","Wahpeton, ND",1.926228460411693
 "Walden, NY","Warwick, NY",0.34557786098068116
 "Warwick, NY","Walden, NY",0.34557786098068116
 "Walden, NY","West Point, NY",0.28801521522314094
@@ -14916,6 +14972,8 @@
 "Wilmington, OH","Washington Court House, OH",0.3978737102398107
 "Waterbury, CT","Willimantic, CT",0.8555340530919983
 "Willimantic, CT","Waterbury, CT",0.8555340530919983
+"Watertown, SD","Worthington, MN",1.957962142279555
+"Worthington, MN","Watertown, SD",1.957962142279555
 "Watertown, WI","Waupun, WI",0.436035328958544
 "Waupun, WI","Watertown, WI",0.436035328958544
 "Watertown, WI","West Bend, WI",0.5792942462169305
@@ -14978,3 +15036,5 @@
 "Yuba City, CA","Woodland, CA",0.48714007523503033
 "Wooster, OH","Zanesville, OH",0.8681707302138452
 "Zanesville, OH","Wooster, OH",0.8681707302138452
+"Worthington, MN","Yankton, SD",1.936658146524571
+"Yankton, SD","Worthington, MN",1.936658146524571

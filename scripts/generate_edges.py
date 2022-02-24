@@ -1,11 +1,13 @@
 import csv
 
+#TODO Add population, weight to edge
+
 RADIUS = 0.904 # Roughly 100 km in degrees
 LOW_DENSITY_RADIUS = 1.356 # Less than 50 / km^2
-VERY_LOW_DENSITY_RADIUS = 1.808 # Less than 10 / km^2
+VERY_LOW_DENSITY_RADIUS = 2.034 # Less than 15 / km^2
 
-LOW_DENSITY_STATES = ['WA', 'KY', 'TX', 'WI', 'LA', 'AL', 'MO', 'WV', 'MN', 'VT', 'MS', 'AZ', 'AR', 'OK', 'IA', 'CO']
-VERY_LOW_DENSITY_STATES = ['ME', 'OR', 'UT', 'KS', 'NV', 'NE', 'ID', 'NM', 'SD', 'ND', 'MT', 'WY', 'AK']
+LOW_DENSITY_STATES = ['WA', 'KY', 'TX', 'WI', 'LA', 'AL', 'MO', 'WV', 'MN', 'VT', 'MS', 'AZ', 'AR', 'OK', 'IA', 'CO', 'ME', 'OR', 'UT']
+VERY_LOW_DENSITY_STATES = ['KS', 'NV', 'NE', 'ID', 'NM', 'SD', 'ND', 'MT', 'WY', 'AK']
 
 # Write output to csv
 def write_to_csv(edges, csv_name):
