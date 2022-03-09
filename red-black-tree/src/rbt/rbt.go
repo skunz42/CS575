@@ -1,0 +1,4 @@
+package rbt
+
+func Insert() {
+}
