@@ -3,6 +3,7 @@ package main
 import (
     "fmt"
     "os"
+    "math/rand"
     "encoding/csv"
     "skunz42/red-black-tree/src/rbt"
 )
@@ -33,7 +34,17 @@ func main() {
 
     csv_filename := os.Args[1]
     rows := readFromCsvFile(csv_filename)
-    for r := range(rows) {
-        rbt.Insert(rows[r])
+    tree := rbt.Tree{Root : nil}
+
+    for i := range(rows) {
+        j := rand.Intn(i+1)
+        rows[i], rows[j] = rows[j], rows[i]
     }
+
+    for r := range(rows) {
+        fmt.Println(rows[r][0])
+        rbt.Insert(&tree, rows[r])
+    }
+    fmt.Println("---------")
+    rbt.PrintInorder(tree.Root)
 }
