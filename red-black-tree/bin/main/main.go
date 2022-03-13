@@ -47,5 +47,6 @@ func main() {
         rbt.Insert(&tree, rows[r])
     }
     fmt.Println("---------")
+    fmt.Println("ROOT: " + rbt.GetCityInfo(tree.Root))
     rbt.PrintInorder(tree.Root)
 }
