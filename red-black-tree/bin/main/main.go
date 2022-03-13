@@ -35,6 +35,7 @@ func main() {
     csv_filename := os.Args[1]
     rows := readFromCsvFile(csv_filename)
     tree := rbt.Tree{Root : nil}
+    rbt.SetRotations(&tree)
 
     for i := range(rows) {
         j := rand.Intn(i+1)
