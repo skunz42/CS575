@@ -5,6 +5,10 @@ import (
     "strconv"
 )
 
+///////////////
+// STRUCTS ///
+/////////////
+
 type Node struct {
     city_info City
     is_red bool
@@ -16,6 +20,10 @@ type Node struct {
 type Tree struct {
     Root *Node
 }
+
+///////////////
+// UTILITIES /
+/////////////
 
 func GetCityInfo(node *Node) (string) {
     return node.city_info.name
@@ -43,6 +51,44 @@ func update_parent(tree *Tree, node *Node, old_child *Node, new_parent *Node) {
     } else {
         tree.Root = node
     }
+}
+
+func find_node_helper(root *Node, id int) (*Node) {
+    if root == nil || root.city_info.id == id {
+        return root
+    } else if id < root.city_info.id {
+        return find_node_helper(root.left, id)
+    } else {
+        return find_node_helper(root.right, id)
+    }
+}
+
+func find_node(tree *Tree, city_id_map map[string]int, city string) (*Node) {
+    id := city_id_map[city]
+    return find_node_helper(tree.Root, id)
+}
+
+func num_of_children(node *Node) (int) {
+    if node.left != nil && node.right != nil {
+        return 2
+    } else if (node.left == nil && node.right != nil) || (node.left != nil && node.right == nil) {
+        return 1
+    }
+    return 0
+}
+
+func find_in_order_succ(node *Node) (*Node) {
+    right_node := node.right
+    left_node := right_node.left
+
+    if left_node == nil {
+        return right_node
+    }
+
+    for left_node.left != nil {
+        left_node = left_node.left
+    }
+    return left_node
 }
 
 func rotate_right(tree *Tree, node *Node, parent *Node, grandfather *Node, recolor bool) {
@@ -92,8 +138,6 @@ func rebalance(tree *Tree, node *Node) {
         return
     }
 
-    //fmt.Println("Node: " + node.city_info.name + ", Parent: " + parent.city_info.name)
-
     grandfather := parent.parent
     var node_dir string // 0 - left, 1 - right
     var parent_dir string
@@ -139,6 +183,10 @@ func rebalance(tree *Tree, node *Node) {
     }
 }
 
+///////////////
+/// INSERT ///
+/////////////
+
 func insertHelper(tree *Tree, root *Node, new_node *Node) {
     // Normal BST insertion stuff plus conflict detection
     if new_node.city_info.id < root.city_info.id {
@@ -157,7 +205,6 @@ func insertHelper(tree *Tree, root *Node, new_node *Node) {
         }
     }
 
-    //TODO Rebalance
     rebalance(tree, new_node)
 }
 
@@ -173,8 +220,27 @@ func Insert(tree *Tree, row []string) {
 }
 
 ///////////////
+// DELETING //
+/////////////
+
+func Delete(tree *Tree, city_id_map map[string]int, city string) {
+    remove_node := find_node(tree, city_id_map, city)
+    if remove_node == nil {
+        return
+    }
+
+    if num_of_children(remove_node) == 2 {
+        succ := find_in_order_succ(remove_node)
+        remove_node.city_info = succ.city_info
+        remove_node = succ
+    }
+
+//    deleteHelper(tree, remove_node)
+}
+
+///////////////
 // PRINTING //
-//////////////
+/////////////
 
 func PrintInorder(root *Node) {
     if root == nil {

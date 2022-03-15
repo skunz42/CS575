@@ -3,6 +3,7 @@ package main
 import (
     "fmt"
     "os"
+    "strconv"
     "math/rand"
     "encoding/csv"
     "skunz42/red-black-tree/src/rbt"
@@ -42,7 +43,8 @@ func main() {
     csv_filename := os.Args[1]
     rows := readFromCsvFile(csv_filename)
     tree := rbt.Tree{Root : nil}
-//    rbt.SetRotations(&tree)
+
+    city_id_map := make(map[string]int)
 
     for i := range(rows) {
         j := rand.Intn(i+1)
@@ -50,9 +52,13 @@ func main() {
     }
 
     for r := range(rows) {
-        fmt.Println(rows[r][0])
+//        fmt.Println(rows[r][0])
         rbt.Insert(&tree, rows[r])
+        id_int, _ := strconv.Atoi(rows[r][1])
+        city_id_map[rows[r][0]] = id_int
     }
-    fmt.Println("----------")
-    rbt.PrintInorder(tree.Root)
+//    fmt.Println("----------")
+//    rbt.PrintLevelOrder(tree.Root)
+
+    rbt.Delete(&tree, city_id_map, "Binghamton, NY")
 }
