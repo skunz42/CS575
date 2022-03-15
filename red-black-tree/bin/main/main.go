@@ -8,6 +8,13 @@ import (
     "skunz42/red-black-tree/src/rbt"
 )
 
+//TODO 0. Insert
+//TODO 1. Delete
+//TODO 2. Option choice loop
+//TODO 3. Insert city
+//TODO 4. Remove city
+//TODO 5. Export to CSV
+
 func readFromCsvFile(filename string) ([][]string) {
     f, err := os.Open(filename)
     if err != nil {
@@ -35,7 +42,7 @@ func main() {
     csv_filename := os.Args[1]
     rows := readFromCsvFile(csv_filename)
     tree := rbt.Tree{Root : nil}
-    rbt.SetRotations(&tree)
+//    rbt.SetRotations(&tree)
 
     for i := range(rows) {
         j := rand.Intn(i+1)
@@ -43,10 +50,9 @@ func main() {
     }
 
     for r := range(rows) {
-        fmt.Println(rows[r][0])
+//        fmt.Println(rows[r][0])
         rbt.Insert(&tree, rows[r])
     }
-    fmt.Println("---------")
-    fmt.Println("ROOT: " + rbt.GetCityInfo(tree.Root))
-    rbt.PrintInorder(tree.Root)
+//    fmt.Println("----------")
+    rbt.PrintLevelOrder(tree.Root)
 }
