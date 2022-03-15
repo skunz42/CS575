@@ -50,9 +50,9 @@ func main() {
     }
 
     for r := range(rows) {
-//        fmt.Println(rows[r][0])
+        fmt.Println(rows[r][0])
         rbt.Insert(&tree, rows[r])
     }
-//    fmt.Println("----------")
-    rbt.PrintLevelOrder(tree.Root)
+    fmt.Println("----------")
+    rbt.PrintInorder(tree.Root)
 }
