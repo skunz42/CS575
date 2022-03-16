@@ -69,6 +69,9 @@ func find_node(tree *Tree, city_id_map map[string]int, city string) (*Node) {
 }
 
 func num_of_children(node *Node) (int) {
+    if node == nil {
+        return 0
+    }
     if node.left != nil && node.right != nil {
         return 2
     } else if (node.left == nil && node.right != nil) || (node.left != nil && node.right == nil) {
@@ -223,11 +226,75 @@ func Insert(tree *Tree, row []string) {
 // DELETING //
 /////////////
 
+func remove_leaf(node *Node) {
+    if node.city_info.id > node.parent.city_info.id {
+        node.parent.right = nil
+    } else {
+        node.parent.left = nil
+    }
+}
+
+func remove_black_node(node *Node) {
+    fmt.Println("Implementing later lol")
+}
+
+func deleteHelper(tree *Tree, node *Node) {
+    left_child := node.left
+    right_child := node.right
+
+    var not_nil_child *Node
+
+//    fmt.Println(left_child.city_info.name)
+//    fmt.Println(right_child.city_info.name)
+
+    if left_child != nil {
+        not_nil_child = left_child
+    } else {
+        not_nil_child = right_child
+    }
+
+/*    if not_nil_child == nil {
+        fmt.Println("uh oh")
+    }
+    */
+
+    if node == tree.Root {
+        if not_nil_child != nil {
+            tree.Root = not_nil_child
+            tree.Root.parent = nil
+            tree.Root.is_red = false
+        } else {
+            tree.Root = nil
+        }
+    } else if node.is_red == true {
+        if num_of_children(node) == 0 {
+            remove_leaf(node)
+    fmt.Println("lol")
+        } else {
+            fmt.Println("ERROR: Cannot have children")
+        }
+    } else {
+        if num_of_children(right_child) > 0 || num_of_children(left_child) > 0 {
+            fmt.Println("ERROR: Red child of black cannot have children")
+        } else if not_nil_child != nil && not_nil_child.is_red == true {
+            node.city_info = not_nil_child.city_info
+            node.left = not_nil_child.left
+            node.right = not_nil_child.right
+            fmt.Println("umm ok")
+        } else {
+            remove_black_node(node)
+        }
+    }
+}
+
 func Delete(tree *Tree, city_id_map map[string]int, city string) {
     remove_node := find_node(tree, city_id_map, city)
+
     if remove_node == nil {
         return
     }
+
+    fmt.Println(num_of_children(remove_node))
 
     if num_of_children(remove_node) == 2 {
         succ := find_in_order_succ(remove_node)
@@ -235,7 +302,9 @@ func Delete(tree *Tree, city_id_map map[string]int, city string) {
         remove_node = succ
     }
 
-//    deleteHelper(tree, remove_node)
+    fmt.Println(remove_node.city_info.name)
+
+    deleteHelper(tree, remove_node)
 }
 
 ///////////////

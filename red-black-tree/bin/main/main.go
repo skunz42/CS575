@@ -61,4 +61,5 @@ func main() {
 //    rbt.PrintLevelOrder(tree.Root)
 
     rbt.Delete(&tree, city_id_map, "Binghamton, NY")
+    rbt.PrintLevelOrder(tree.Root)
 }
