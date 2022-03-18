@@ -29,6 +29,19 @@ func GetCityInfo(node *Node) (string) {
     return node.city_info.name
 }
 
+func get_sibling(node *Node) (*Node, string) {
+    parent := node.parent
+    if node.city_info.id > parent.city_info.id {
+        sibling := parent.left
+        direction := "L"
+        return sibling, direction
+    } else {
+        sibling := parent.right
+        direction := "R"
+        return sibling, direction
+    }
+}
+
 func recolor(tree *Tree, grandfather *Node) {
     grandfather.right.is_red = false
     grandfather.left.is_red = false
@@ -226,6 +239,47 @@ func Insert(tree *Tree, row []string) {
 // DELETING //
 /////////////
 
+func remove_case_6(tree *Tree, node *Node) {
+
+}
+
+func remove_case_5(tree *Tree, node *Node) {
+
+}
+
+func remove_case_4(tree *Tree, node *Node) {
+
+}
+
+func remove_case_3(tree *Tree, node *Node) {
+
+}
+
+func remove_case_2(tree *Tree, node *Node) {
+    parent := node.parent
+    sibling, direction := get_sibling(node)
+    if sibling.is_red == true && parent.is_red == false && sibling.left.is_red == false && sibling.right.is_red == false {
+        if direction == "L" {
+            rotate_right(tree, nil, sibling, parent, false)
+        } else if direction == "R" {
+            rotate_left(tree, nil, sibling, parent, false)
+        }
+        parent.is_red = true
+        sibling.is_red = false
+        remove_case_1(tree, node)
+    }
+    remove_case_3(tree, node)
+}
+
+func remove_case_1(tree *Tree, node *Node) {
+    // recursively call other cases
+    if tree.Root == node {
+        node.is_red = false
+        return
+    }
+    remove_case_2(tree, node)
+}
+
 func remove_leaf(node *Node) {
     if node.city_info.id > node.parent.city_info.id {
         node.parent.right = nil
@@ -234,8 +288,9 @@ func remove_leaf(node *Node) {
     }
 }
 
-func remove_black_node(node *Node) {
-    fmt.Println("Implementing later lol")
+func remove_black_node(tree *Tree, node *Node) {
+    remove_case_1(tree, node)
+    remove_leaf(node)
 }
 
 func deleteHelper(tree *Tree, node *Node) {
@@ -253,11 +308,6 @@ func deleteHelper(tree *Tree, node *Node) {
         not_nil_child = right_child
     }
 
-/*    if not_nil_child == nil {
-        fmt.Println("uh oh")
-    }
-    */
-
     if node == tree.Root {
         if not_nil_child != nil {
             tree.Root = not_nil_child
@@ -269,7 +319,6 @@ func deleteHelper(tree *Tree, node *Node) {
     } else if node.is_red == true {
         if num_of_children(node) == 0 {
             remove_leaf(node)
-    fmt.Println("lol")
         } else {
             fmt.Println("ERROR: Cannot have children")
         }
@@ -280,9 +329,8 @@ func deleteHelper(tree *Tree, node *Node) {
             node.city_info = not_nil_child.city_info
             node.left = not_nil_child.left
             node.right = not_nil_child.right
-            fmt.Println("umm ok")
         } else {
-            remove_black_node(node)
+            remove_black_node(tree, node)
         }
     }
 }
