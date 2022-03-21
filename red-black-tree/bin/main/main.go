@@ -60,6 +60,6 @@ func main() {
 //    fmt.Println("----------")
 //    rbt.PrintLevelOrder(tree.Root)
 
-    rbt.Delete(&tree, city_id_map, "Binghamton, NY")
+//    rbt.Delete(&tree, city_id_map, "Danville, IL")
     rbt.PrintLevelOrder(tree.Root)
 }

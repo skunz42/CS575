@@ -239,26 +239,150 @@ func Insert(tree *Tree, row []string) {
 // DELETING //
 /////////////
 
-func remove_case_6(tree *Tree, node *Node) {
+func remove_case_6_helper(tree *Tree, sibling *Node, direction string) {
+    parent_color := sibling.parent.is_red
 
+    if direction == "L" {
+        rotate_right(tree, nil, sibling, sibling.parent, false)
+    } else {
+        rotate_left(tree, nil, sibling, sibling.parent, false)
+    }
+    sibling.is_red = parent_color
+    sibling.right.is_red = false
+    sibling.left.is_red = false
+}
+
+func remove_case_6(tree *Tree, node *Node) {
+    sibling, direction := get_sibling(node)
+    var outer_node *Node
+
+    if direction == "L" {
+        outer_node = sibling.left
+    } else {
+        outer_node = sibling.right
+    }
+
+    if sibling.is_red == false && outer_node.is_red == true {
+        remove_case_6_helper(tree, sibling, direction)
+        return
+    }
+    fmt.Println("ERROR: Got through all test cases")
 }
 
 func remove_case_5(tree *Tree, node *Node) {
+    sibling, direction := get_sibling(node)
+    var closer_node *Node
+    var outer_node *Node
 
+    if direction == "L" {
+        closer_node = sibling.right
+        outer_node = sibling.left
+    } else {
+        closer_node = sibling.left
+        outer_node = sibling.right
+    }
+
+    outer_nil := false
+
+    if outer_node == nil {
+        outer_nil = true
+    }
+
+    if (closer_node.is_red == true && outer_nil == false && outer_node.is_red == false && sibling.is_red == false) ||
+    (closer_node.is_red == true && outer_nil == true && sibling.is_red == false) {
+        if direction == "L" {
+            rotate_left(tree, nil, closer_node, sibling, false)
+        } else {
+            rotate_right(tree, nil, closer_node, sibling, false)
+        }
+        closer_node.is_red = false
+        sibling.is_red = true
+    }
+
+    remove_case_6(tree, node)
 }
 
 func remove_case_4(tree *Tree, node *Node) {
+    parent := node.parent
 
+
+    if parent.is_red == true {
+        sibling, _ := get_sibling(node)
+
+        sib_left_nil := false
+        sib_right_nil := false
+
+        if sibling.left == nil {
+            sib_left_nil = true
+        }
+        if sibling.right == nil {
+            sib_right_nil = true
+        }
+
+        if (sibling.is_red == false && sib_left_nil == false &&
+        sib_right_nil == false && sibling.left.is_red == false && sibling.right.is_red == false) ||
+        (sibling.is_red == false && sib_left_nil == false &&
+        sib_right_nil == true && sibling.left.is_red == false) ||
+        (sibling.is_red == false && sib_left_nil == true &&
+        sib_right_nil == false && sibling.right.is_red == false) ||
+        (sibling.is_red == false && sib_left_nil == true && sib_right_nil == true) {
+            parent.is_red, sibling.is_red = sibling.is_red, parent.is_red
+            return
+        }
+    }
+    remove_case_5(tree, node)
 }
 
 func remove_case_3(tree *Tree, node *Node) {
+    parent := node.parent
+    sibling, _ := get_sibling(node)
 
+    sib_left_nil := false
+    sib_right_nil := false
+
+    if sibling.left == nil {
+        sib_left_nil = true
+    }
+    if sibling.right == nil {
+        sib_right_nil = true
+    }
+
+    if (sibling.is_red == false && parent.is_red == false && sib_left_nil == false &&
+    sib_right_nil == false && sibling.left.is_red == false && sibling.right.is_red == false) ||
+    (sibling.is_red == false && parent.is_red == false && sib_left_nil == false &&
+    sib_right_nil == true && sibling.left.is_red == false) ||
+    (sibling.is_red == false && parent.is_red == false && sib_left_nil == true &&
+    sib_right_nil == false && sibling.right.is_red == false) ||
+    (sibling.is_red == false && parent.is_red == false && sib_left_nil == true && sib_right_nil == true) {
+        sibling.is_red = true
+        remove_case_1(tree, parent)
+        return
+    }
+
+    remove_case_4(tree, node)
 }
 
 func remove_case_2(tree *Tree, node *Node) {
     parent := node.parent
     sibling, direction := get_sibling(node)
-    if sibling.is_red == true && parent.is_red == false && sibling.left.is_red == false && sibling.right.is_red == false {
+
+    sib_left_nil := false
+    sib_right_nil := false
+
+    if sibling.left == nil {
+        sib_left_nil = true
+    }
+    if sibling.right == nil {
+        sib_right_nil = true
+    }
+
+    if (sibling.is_red == true && parent.is_red == false && sib_left_nil == false &&
+    sib_right_nil == false && sibling.left.is_red == false && sibling.right.is_red == false) ||
+    (sibling.is_red == true && parent.is_red == false && sib_left_nil == false &&
+    sib_right_nil == true && sibling.left.is_red == false) ||
+    (sibling.is_red == true && parent.is_red == false && sib_left_nil == true &&
+    sib_right_nil == false && sibling.right.is_red == false) ||
+    (sibling.is_red == true && parent.is_red == false && sib_left_nil == true && sib_right_nil == true) {
         if direction == "L" {
             rotate_right(tree, nil, sibling, parent, false)
         } else if direction == "R" {
@@ -267,6 +391,7 @@ func remove_case_2(tree *Tree, node *Node) {
         parent.is_red = true
         sibling.is_red = false
         remove_case_1(tree, node)
+        return
     }
     remove_case_3(tree, node)
 }
@@ -281,10 +406,13 @@ func remove_case_1(tree *Tree, node *Node) {
 }
 
 func remove_leaf(node *Node) {
-    if node.city_info.id > node.parent.city_info.id {
+    fmt.Println("1")
+    if node.city_info.id >= node.parent.city_info.id {
         node.parent.right = nil
+        fmt.Println("2")
     } else {
         node.parent.left = nil
+        fmt.Println("3")
     }
 }
 
@@ -342,15 +470,11 @@ func Delete(tree *Tree, city_id_map map[string]int, city string) {
         return
     }
 
-    fmt.Println(num_of_children(remove_node))
-
     if num_of_children(remove_node) == 2 {
         succ := find_in_order_succ(remove_node)
         remove_node.city_info = succ.city_info
         remove_node = succ
     }
-
-    fmt.Println(remove_node.city_info.name)
 
     deleteHelper(tree, remove_node)
 }
