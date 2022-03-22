@@ -266,7 +266,7 @@ func remove_case_6(tree *Tree, node *Node) {
         remove_case_6_helper(tree, sibling, direction)
         return
     }
-    fmt.Println("ERROR: Got through all test cases")
+    fmt.Println("ERROR: Got through all cases")
 }
 
 func remove_case_5(tree *Tree, node *Node) {
@@ -406,13 +406,10 @@ func remove_case_1(tree *Tree, node *Node) {
 }
 
 func remove_leaf(node *Node) {
-    fmt.Println("1")
     if node.city_info.id >= node.parent.city_info.id {
         node.parent.right = nil
-        fmt.Println("2")
     } else {
         node.parent.left = nil
-        fmt.Println("3")
     }
 }
 
@@ -483,13 +480,13 @@ func Delete(tree *Tree, city_id_map map[string]int, city string) {
 // PRINTING //
 /////////////
 
-func PrintInorder(root *Node) {
+func WriteInorder(root *Node, cities *[]City) {
     if root == nil {
         return
     }
-    PrintInorder(root.left)
-    fmt.Println(root.city_info.name)
-    PrintInorder(root.right)
+    WriteInorder(root.left, cities)
+    *cities = append(*cities, root.city_info)
+    WriteInorder(root.right, cities)
 }
 
 func height(root *Node) (int) {
