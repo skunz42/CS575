@@ -10,13 +10,6 @@ import (
     "skunz42/red-black-tree/src/rbt"
 )
 
-//TODO 0. Insert
-//TODO 1. Delete
-//TODO 2. Option choice loop
-//TODO 3. Insert city
-//TODO 4. Remove city
-//TODO 5. Export to CSV
-
 func write_to_csv(root *rbt.Node) {
     in := bufio.NewReader(os.Stdin)
 
