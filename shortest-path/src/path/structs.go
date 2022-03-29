@@ -3,6 +3,7 @@ package path
 import (
     "fmt"
     "strconv"
+    "math"
 )
 
 type Node struct {
@@ -11,6 +12,9 @@ type Node struct {
     lng float32
     id int
     population int
+    dist float32
+    prev *Node
+    adj_list []*Node
 }
 
 type Edge struct {
@@ -34,12 +38,14 @@ func stringToFloat(s string) float32 {
 }
 
 func city_factory(row []string) *Node {
-    city := Node{name: row[0], id: stringToInt(row[1]), population: stringToInt(row[2]), lat: stringToFloat(row[3]), lng: stringToFloat(row[4])}
+    city := Node{name: row[0], id: stringToInt(row[1]), population: stringToInt(row[2]), lat: stringToFloat(row[3]), lng: stringToFloat(row[4]),
+    dist: math.MaxFloat32, prev: nil, adj_list: make([]*Node, 0)}
     return &city
 }
 
 func edge_factory(row []string) *Edge {
-    edge := Edge{start: nil, dest: nil, distance: stringToFloat(row[2]), population: stringToInt(row[3]), weight: stringToFloat(row[4]), start_string: row[0], dest_string: row[1]}
+    edge := Edge{start: nil, dest: nil, distance: stringToFloat(row[2]), population: stringToInt(row[3]), weight: stringToFloat(row[4]),
+    start_string: row[0], dest_string: row[1]}
     return &edge
 }
 
@@ -72,12 +78,20 @@ func Make_Edges(rows [][]string, edges []*Edge, cities []*Node) ([]*Edge) {
     return edges
 }
 
+func Make_Adj_List(city *Node, edges []*Edge) {
+    for i := range(edges) {
+        if edges[i].start_string == city.name {
+            city.adj_list = append(city.adj_list, edges[i].dest)
+        }
+    }
+}
+
 func Print_City(city *Node) {
     fmt.Println("Name: ", city.name)
-    fmt.Println("Lat: ", city.lat)
+    /*fmt.Println("Lat: ", city.lat)
     fmt.Println("Lng: ", city.lng)
     fmt.Println("Id: ", city.id);
-    fmt.Println("Population: ", city.population)
+    fmt.Println("Population: ", city.population)*/
 }
 
 func Print_Edge(edge *Edge) {
@@ -88,4 +102,12 @@ func Print_Edge(edge *Edge) {
     fmt.Println("Weight: ", edge.weight)
     fmt.Println("Start: ", edge.start_string)
     fmt.Println("End: ", edge.dest_string)
+}
+
+func Print_Adj_List(city *Node) {
+    fmt.Print("City: " + city.name + ", Adj: ")
+    for i := range(city.adj_list) {
+        fmt.Print(city.adj_list[i].name + ", ")
+    }
+    fmt.Println()
 }

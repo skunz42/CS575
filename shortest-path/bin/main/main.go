@@ -25,8 +25,14 @@ func main() {
     all_cities = path.Make_Cities(city_rows, all_cities)
     all_edges = path.Make_Edges(edge_rows, all_edges, all_cities)
 
-//    path.Print_City(all_cities[0])
-//    path.Print_Edge(all_edges[0])
+//    for i := range(all_cities) {
+//        path.Print_City(all_cities[i])
+//    }
+
+    for i := range(all_cities) {
+        path.Make_Adj_List(all_cities[i], all_edges)
+        path.Print_Adj_List(all_cities[i])
+    }
 
 //    path.FindPath()
 }
