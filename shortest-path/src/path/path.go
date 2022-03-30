@@ -7,8 +7,8 @@ import (
 )
 
 func FindPath(start_city, end_city string, all_cities []*Node, all_edges []*Edge) ([][]float32) {
-    pq := make(PriorityQueue, len(all_cities))
-//    pq_idx := 0
+    pq := make(PriorityQueue, 1)
+    pq_idx := 0
 
     start := find_node(start_city, all_cities)
     end := find_node(end_city, all_cities)
@@ -18,10 +18,13 @@ func FindPath(start_city, end_city string, all_cities []*Node, all_edges []*Edge
         os.Exit(1)
     }
 
-    for i := range(all_cities) {
-        all_cities[i].index = i
-        pq[i] = all_cities[i]
-    }
+//    for i := range(all_cities) {
+//        all_cities[i].index = i
+//        pq[i] = all_cities[i]
+//    }
+
+    start.index = pq_idx
+    pq[pq_idx] = start
 
     start.dist = 0.0
 
@@ -42,6 +45,9 @@ func FindPath(start_city, end_city string, all_cities []*Node, all_edges []*Edge
             if alt < neighbor.dist {
                 neighbor.dist = alt
                 neighbor.prev = min_node
+                if !contains(pq, neighbor) {
+                    heap.Push(&pq, neighbor)
+                }
                 pq.update(neighbor)
             }
         }

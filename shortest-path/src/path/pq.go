@@ -40,3 +40,12 @@ func (pq *PriorityQueue) Pop() interface{} {
 func (pq *PriorityQueue) update(node *Node) {
     heap.Fix(pq, node.index)
 }
+
+func contains(pq PriorityQueue, node *Node) bool {
+    for i := range(pq) {
+        if pq[i].name == node.name {
+            return true
+        }
+    }
+    return false
+}
