@@ -12,9 +12,12 @@ type Node struct {
     lng float32
     id int
     population int
+
     dist float32
     prev *Node
     adj_list []*Node
+
+    index int
 }
 
 type Edge struct {
@@ -39,7 +42,7 @@ func stringToFloat(s string) float32 {
 
 func city_factory(row []string) *Node {
     city := Node{name: row[0], id: stringToInt(row[1]), population: stringToInt(row[2]), lat: stringToFloat(row[3]), lng: stringToFloat(row[4]),
-    dist: math.MaxFloat32, prev: nil, adj_list: make([]*Node, 0)}
+    dist: math.MaxFloat32, prev: nil, adj_list: make([]*Node, 0), index: -1}
     return &city
 }
 
@@ -53,6 +56,15 @@ func find_node(name string, cities []*Node) (*Node) {
     for i := range(cities) {
         if cities[i].name == name {
             return cities[i]
+        }
+    }
+    return nil
+}
+
+func find_edge(start *Node, end *Node, edges []*Edge) (*Edge) {
+    for i := range(edges) {
+        if start.name == edges[i].start.name && end.name == edges[i].dest.name {
+            return edges[i]
         }
     }
     return nil

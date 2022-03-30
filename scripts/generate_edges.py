@@ -18,13 +18,14 @@ def write_to_csv(edges, csv_name):
 def edge_factory(city_a, city_b):
     distance = ((city_a['lat'] - city_b['lat'])**2 + (city_a['lng'] - city_b['lng'])**2)**0.5
     population = city_a['population'] + city_b['population']
-    weight = (100.0 * distance) / population**0.5
+    weight = (100.0 * distance) / population**0.10
     return {'start': city_a['city'], 'end': city_b['city'], 'distance': distance, 'population': population, 'weight': weight}
 
 # Return w/ Name, ID, Population, and blank Lat/Lng
 def city_factory(row):
     return {'city': row[0], 'id': row[1], 'population': int(row[2]), 'lat': float(row[4]), 'lng': float(row[3])}
 
+# Returns radius distance
 def get_radius_type(city_a, city_b):
     if city_a['city'][-2:] in VERY_LOW_DENSITY_STATES or city_b['city'][-2:] in VERY_LOW_DENSITY_STATES:
         return VERY_LOW_DENSITY_RADIUS
@@ -59,7 +60,7 @@ def get_cities_list(csv_name):
     return cities
 
 def main():
-    cities = get_cities_list('cleancities.csv')
+    cities = get_cities_list('../data/cleancities.csv')
     edges = generate_edges(cities)
     write_to_csv(edges, 'edges.csv')
 
