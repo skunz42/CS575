@@ -62,11 +62,11 @@ func Read(client *mongo.Client, ctx context.Context, search_id string) ([][]floa
 
     err := collection.FindOne(ctx, bson.M{"id":search_id}).Decode(&paths)
     if err != nil {
-        fmt.Println(err)
+        fmt.Println("Path has not yet been computed")
         return nil
     }
 
-    fmt.Println(paths.Path)
+    fmt.Println("Found cached path")
 
     return paths.Path
 }
