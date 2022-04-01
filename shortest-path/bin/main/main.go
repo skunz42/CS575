@@ -48,7 +48,13 @@ func main() {
     start_id := path.NameId(start_city, all_cities)
     end_id := path.NameId(end_city, all_cities)
 
-    if (database.Connect()) {
-        database.Write(start_id, end_id, float_path)
+    client, ctx := database.Connect()
+
+    if (len(float_path) > 0 && client != nil) {
+        database.Write(start_id, end_id, float_path, client, ctx)
     }
+
+//    database.Read(client, ctx)
+
+    database.Disconnect(client, ctx)
 }
