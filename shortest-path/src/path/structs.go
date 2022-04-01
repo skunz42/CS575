@@ -70,6 +70,18 @@ func find_edge(start *Node, end *Node, edges []*Edge) (*Edge) {
     return nil
 }
 
+func NameId(city string, all_cities []*Node) (string) {
+    var id int
+
+    for i := range(all_cities) {
+        if all_cities[i].name == city {
+            id = all_cities[i].id
+        }
+    }
+
+    return fmt.Sprintf("%05d", id)
+}
+
 func Make_Cities(rows [][]string, cities []*Node) ([]*Node) {
     for i := range(rows) {
         city := city_factory(rows[i])

@@ -5,6 +5,7 @@ import (
     "os"
     "skunz42/shortest-path/src/path"
     "skunz42/shortest-path/src/inputs"
+    "skunz42/shortest-path/src/database"
 )
 
 func main() {
@@ -42,5 +43,12 @@ func main() {
         for i := len(float_path)-1; i >= 0; i-- {
             fmt.Printf("%.6f, %.6f\n", float_path[i][0], float_path[i][1])
         }
+    }
+
+    start_id := path.NameId(start_city, all_cities)
+    end_id := path.NameId(end_city, all_cities)
+
+    if (database.Connect()) {
+        database.Write(start_id, end_id, float_path)
     }
 }
