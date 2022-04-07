@@ -3,9 +3,9 @@ package main
 import (
     "encoding/json"
     "fmt"
-	"net/http"
+    "net/http"
     "math/rand"
-    "time"
+//    "time"
 )
 
 type Cities struct {
@@ -62,7 +62,7 @@ func getPathHandler(w http.ResponseWriter, r *http.Request) {
 // /results
 func inputHandler(w http.ResponseWriter, r *http.Request) {
     //Blocking vs non-blocking?
-    time.Sleep(10 * time.Second)
+    //time.Sleep(10 * time.Second)
 
     //Replace rand n with path
     my_num = rand.Intn(100)
