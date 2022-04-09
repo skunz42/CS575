@@ -58,6 +58,7 @@ func main() {
         float_path = database.Read(client, ctx, search_id)
         if float_path != nil {
             in_db = true
+            fmt.Println(float_path)
         }
     }
 

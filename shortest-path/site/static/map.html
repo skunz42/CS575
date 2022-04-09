@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Results</title>
+</head>
+
+<body>
+  <h1>J U S T</h1>
+  
+  <script>
+    fetch("/cities")
+      .then(response => response.json())
+      .then(points => {
+          console.log(points.start + ", " + points.destination)
+      })
+  </script>
+</body>
+
+</html>
