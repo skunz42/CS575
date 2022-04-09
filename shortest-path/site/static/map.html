@@ -1,21 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>Results</title>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Results</title>
-</head>
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
 
-<body>
-  <h1>J U S T</h1>
-  
-  <script>
-    fetch("/cities")
-      .then(response => response.json())
-      .then(points => {
-          console.log(points.start + ", " + points.destination)
-      })
-  </script>
-</body>
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.22/esri/themes/light/main.css"
+    />
+    <script src="https://js.arcgis.com/4.22/"></script>
 
+    <script>
+      require(["esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView"], (
+        Map,
+        GeoJSONLayer,
+        MapView
+      ) => {
+    
+        fetch("/cities")
+          .then(response => response.json())
+          .then(points => {
+            console.log(points)
+          })
+
+        const map = new Map({
+          basemap: "gray-vector",
+        });
+
+        const view = new MapView({
+          container: "viewDiv",
+          center: [-98, 38],
+          zoom: 2,
+          map: map
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+  </body>
 </html>
+

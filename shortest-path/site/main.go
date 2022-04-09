@@ -5,7 +5,7 @@ import (
     "net/http"
     "encoding/json"
     "github.com/gorilla/mux"
-    "skunz42/shortest-path/src/inputs"
+    "skunz42/shortest-path/src/external"
 )
 
 type Cities struct {
@@ -13,11 +13,10 @@ type Cities struct {
 	Destination string `json:"destination"`
 }
 
-var write_response Cities
+var global_path [][]float32
 
 // /results
 func resultHandler(w http.ResponseWriter, r *http.Request) {
-    
     http.ServeFile(w, r, "./static/map.html")
 }
 
@@ -36,14 +35,15 @@ func endpointHandler(w http.ResponseWriter, r *http.Request) {
 	endpoints.Start = r.Form.Get("start")
 	endpoints.Destination = r.Form.Get("destination")
 
-    write_response = endpoints
+    temp_path := external.ShortestPath(endpoints.Start, endpoints.Destination)
+    global_path = temp_path
 
     http.Redirect(w, r, "/results", http.StatusFound)
 }
 
 // /cities
 func cityHandler(w http.ResponseWriter, r *http.Request) {
-	myBytes, err := json.Marshal(write_response)
+	myBytes, err := json.Marshal(global_path)
 
 	if err != nil {
 		fmt.Println(fmt.Errorf("Error: %v", err))
