@@ -25,28 +25,54 @@
     <script src="https://js.arcgis.com/4.22/"></script>
 
     <script>
-      require(["esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView"], (
+      require(["esri/Map", "esri/layers/GeoJSONLayer", "esri/views/MapView", "esri/Graphic"], (
         Map,
         GeoJSONLayer,
-        MapView
+        MapView,
+        Graphic
       ) => {
-    
         fetch("/cities")
           .then(response => response.json())
-          .then(points => {
+          .then(temp_points => {
+
+            let points = []
+
+            for (var i = 0; i < temp_points.length; i++) {
+              points.push([temp_points[i][1], temp_points[i][0]])
+            }
+            
+            const polyline = {
+              type: "polyline", // autocasts as new Polyline()
+              paths: points
+            };
+
+            // Create a symbol for drawing the line
+            const lineSymbol = {
+              type: "simple-line", // autocasts as SimpleLineSymbol()
+              color: [226, 119, 40],
+              width: 4
+            };
+
+            const polylineGraphic = new Graphic({
+              geometry: polyline,
+              symbol: lineSymbol,
+            });
+
             console.log(points)
+
+            const map = new Map({
+              basemap: "gray-vector",
+            });
+
+            const view = new MapView({
+              container: "viewDiv",
+              center: [-98, 38],
+              zoom: 2,
+              map: map
+            });
+
+            view.graphics.add(polylineGraphic);
           })
-
-        const map = new Map({
-          basemap: "gray-vector",
-        });
-
-        const view = new MapView({
-          container: "viewDiv",
-          center: [-98, 38],
-          zoom: 2,
-          map: map
-        });
       });
     </script>
   </head>
